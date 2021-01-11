@@ -1,2 +1,2 @@
 # qhack21
-Test repository for QHACK21
+Team repository for QHACK21
