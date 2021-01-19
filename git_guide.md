@@ -23,10 +23,13 @@ git status
 ```
 # check the whole changes you did
 git status
+
 # select the changes you want to send
 git add toto.txt myfiles game.py
+
 # write your commit message, explain in a few words what you did
 git commit -m "blabla blabla"
+
 # send your the files you select with the message
 git push origin my_feature
 ```
@@ -44,6 +47,7 @@ git pull
 ```
 # get back on the branch develop
 git checkout develop
+
 # update your repo
 git pull
 ```
@@ -53,18 +57,25 @@ Here a few commands using very often :
 ```
 # get the whole repo
 git clone your_depo
+
 # check the status of your repo
 git status
+
 # update your depot
 git pull
+
 # create a new_branch
 git checkout -b new_branch
+
 # change on a branch (alrealdy exist)
 git checkout old_branch
+
 # add file to send
 git add myfiles
+
 # write commit message with the files you had
 git commit -m "blabla"
+
 # push your files
 git push origin your_branch
 ```
