@@ -3,7 +3,7 @@
 ## Install & start working on our qhack21 repo
 ```
 # install
-apt-get install git
+apt-get install git-all
 # get the repo
 git clone https://github.com/mickahell/qhack21.git
 # if you have an ssh key link with your github account
