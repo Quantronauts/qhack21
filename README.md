@@ -23,7 +23,12 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 			</pre>
 		</details>
 
-- Inside your env, check your python installation. Be careful some quantum libs have problem with python 3.9, so stop yourself to [python 3.8](https://www.python.org/downloads/release/python-387/) :
+- Inside your env, check your python installation :
+```
+conda activate name_of_my_env
+python --version
+```
+- :warning: Be careful some quantum libs have problem with :x: **python 3.9**, so stop yourself to **[python 3.8](https://www.python.org/downloads/release/python-387/)** :
 `pip install python==3.8.7`
 
 ### Installing libraries
