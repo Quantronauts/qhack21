@@ -8,7 +8,7 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 
 ## Setup env
 ### Create your virtual env
-- To create your virtual env I suggested to use [Anaconda](https://docs.anaconda.com/anaconda/install/)
+- To create your virtual env I suggested to use [Anaconda](https://www.anaconda.com/products/individual)
 	- If you are on Linux you can setup your virtual env by using :
 	<details><summary>Linux env</summary>
 ```
@@ -23,7 +23,7 @@ toto$ quantum
 ```
  	</details>
 
-- First of all you need to install python 3.x, be careful some quantum libs have problem with python 3.9, so stop yourself to [python 3.8](https://www.python.org/downloads/release/python-387/) :
+- Inside your env, check your python installation. Be careful some quantum libs have problem with python 3.9, so stop yourself to [python 3.8](https://www.python.org/downloads/release/python-387/) :
 `pip install python==3.8.7`
 
 ### Installing libraries
