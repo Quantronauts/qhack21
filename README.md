@@ -1,4 +1,4 @@
-# qhack21
+# qhack21 - Quant'ronauts
 Team repository for QHACK21, I'll change the name when we'll have a proper team name
 
 ## Structure
