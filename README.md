@@ -109,6 +109,10 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 ### Analyze results by graph
 ![Graph](graph_example.png)
 
+**Legends :**
+- Blue : *Qats*
+- Red : *DoQs*
+
 ## Setup env <a name="setup_env"></a>
 ### Create your virtual env
 - To create your virtual env I suggested to use [Anaconda](https://www.anaconda.com/products/individual)
