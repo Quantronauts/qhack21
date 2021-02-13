@@ -23,95 +23,104 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 </pre>
 - Then run it with somes iterations (100) for each parameters
 
-#### Register output with parameters
+#### Register output with parameters and making graph state
 <table>
-	<thead>
-		<tr>
-			<th align="center">RX(φ)</th>
-			<th align="center">RY(φ*i)</th>
-			<th align="center">OUT</th>
-		</tr>
-	</thead>
 	<tbody>
 		<tr>
-			<td align="center">π</td>
-			<td align="center">0</td>
-			<td align="center">1</td>
-		</tr>
-		<tr>
-			<td align="center">π/3</td>
-			<td align="center">0</td>
-			<td align="center">0</td>
-		</tr>
-		<tr>
-			<td align="center">π/3</td>
-			<td align="center">0</td>
-			<td align="center">1</td>
-		</tr>
-		<tr>
-			<td align="center">π/3</td>
-			<td align="center">0</td>
-			<td align="center">0</td>
-		</tr>
-		<tr>
-			<td align="center">0</td>
-			<td align="center">2*π/3</td>
-			<td align="center">1</td>
-		</tr>
-		<tr>
-			<td align="center">0</td>
-			<td align="center">2*π/3</td>
-			<td align="center">1</td>
-		</tr>
-		<tr>
-			<td align="center">0</td>
-			<td align="center">2*π/3</td>
-			<td align="center">0</td>
-		</tr>
-		<tr>
-			<td align="center">2*π/3</td>
-			<td align="center">2*π/3</td>
-			<td align="center">1</td>
-		</tr>
-		<tr>
-			<td align="center">2*π/3</td>
-			<td align="center">2*π/3</td>
-			<td align="center">0</td>
-		</tr>
-		<tr>
-			<td align="center">2*π/3</td>
-			<td align="center">2*π/3</td>
-			<td align="center">0</td>
-		</tr>
-		<tr>
-			<td align="center">2*π/3</td>
-			<td align="center">π/3</td>
-			<td align="center">1</td>
-		</tr>
-		<tr>
-			<td align="center">2*π/3</td>
-			<td align="center">π/3</td>
-			<td align="center">0</td>
-		</tr>
-		<tr>
-			<td align="center">2*π/3</td>
-			<td align="center">π/3</td>
-			<td align="center">1</td>
-		</tr>
-		<tr>
-			<td align="center">...</td>
-			<td align="center">...</td>
-			<td align="center">...</td>
+			<td>
+				<img src="graph_example.png">
+				<br/><b>Legends :</b>
+				<ul>
+					<li>Blue : <i>Qats</i></li>
+					<li>Red : <i>DoQs</i></li>
+				</ul>
+			</td>
+			<td>
+				<table>
+					<thead>
+						<tr>
+							<th align="center">RX(φ)</th>
+							<th align="center">RY(φ*i)</th>
+							<th align="center">OUT</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td align="center">π</td>
+							<td align="center">0</td>
+							<td align="center">1</td>
+						</tr>
+						<tr>
+							<td align="center">π/3</td>
+							<td align="center">0</td>
+							<td align="center">0</td>
+						</tr>
+						<tr>
+							<td align="center">π/3</td>
+							<td align="center">0</td>
+							<td align="center">1</td>
+						</tr>
+						<tr>
+							<td align="center">π/3</td>
+							<td align="center">0</td>
+							<td align="center">0</td>
+						</tr>
+						<tr>
+							<td align="center">0</td>
+							<td align="center">2*π/3</td>
+							<td align="center">1</td>
+						</tr>
+						<tr>
+							<td align="center">0</td>
+							<td align="center">2*π/3</td>
+							<td align="center">1</td>
+						</tr>
+						<tr>
+							<td align="center">0</td>
+							<td align="center">2*π/3</td>
+							<td align="center">0</td>
+						</tr>
+						<tr>
+							<td align="center">2*π/3</td>
+							<td align="center">2*π/3</td>
+							<td align="center">1</td>
+						</tr>
+						<tr>
+							<td align="center">2*π/3</td>
+							<td align="center">2*π/3</td>
+							<td align="center">0</td>
+						</tr>
+						<tr>
+							<td align="center">2*π/3</td>
+							<td align="center">2*π/3</td>
+							<td align="center">0</td>
+						</tr>
+						<tr>
+							<td align="center">2*π/3</td>
+							<td align="center">π/3</td>
+							<td align="center">1</td>
+						</tr>
+						<tr>
+							<td align="center">2*π/3</td>
+							<td align="center">π/3</td>
+							<td align="center">0</td>
+						</tr>
+						<tr>
+							<td align="center">2*π/3</td>
+							<td align="center">π/3</td>
+							<td align="center">1</td>
+						</tr>
+						<tr>
+							<td align="center">...</td>
+							<td align="center">...</td>
+							<td align="center">...</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
 		</tr>
 	</tbody>
 </table>
-
-### Analyze results by graph
-![Graph](graph_example.png)
-
-**Legends :**
-- Blue : *Qats*
-- Red : *DoQs*
 
 ## Setup env <a name="setup_env"></a>
 ### Create your virtual env
