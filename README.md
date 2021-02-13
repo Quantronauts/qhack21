@@ -15,11 +15,13 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 ### First create quantum state with variational parameters
 - We need to create quantum state using variational circuit, example :
 <pre>
-          |----|   |----|   |---------|
-  qu0  ---| RX |---| RY |---| MEASURE |
-          |----|   |----|   |---------|
-  				 |
-  c0   --------------------------o-----
+        |----------|  |-----------------|
+	|  Device  |  |    Processing   |    
+        | |------| |  | |----|   |----| |      |---------|
+  qu0  -|-| S(x) |-|--|-| RY |---| RX |-|------| MEASURE |
+        | |------| |  | |----|   |----| |      |---------|
+  	|----------|  |-----------------|           |
+  c0   ---------------------------------------------o-----
 </pre>
 - Then run it with somes iterations (100) for each parameters
 
