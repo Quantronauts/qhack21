@@ -25,7 +25,7 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 </pre>
 1. We generated 100 *x* value labed to be Qat or DoQ
 2. Then run it for each parameters
-3. Adjust *y* along the gradient (as PennyLane can calculate the [gradient][https://medium.com/xanaduai/training-quantum-neural-networks-with-pennylane-pytorch-and-tensorflow-c669108118cc] w.r.t. y)
+3. Adjust *y* along the gradient (as PennyLane can calculate the [gradient](https://medium.com/xanaduai/training-quantum-neural-networks-with-pennylane-pytorch-and-tensorflow-c669108118cc) w.r.t. y)
 4. Redo step 2 and 3 again and again and again ...
 
 #### Register output with parameters and making graph state
