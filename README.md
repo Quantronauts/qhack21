@@ -1,7 +1,7 @@
 # qhack21 - Quant'ronauts
 Team repository for QHACK21, I'll change the name when we'll have a proper team name
 
-# Table of contents
+## Table of contents
 1. [Structure](#structure)
 2. [Idea](#idea)
 3. [Setup env](#setup_env)
