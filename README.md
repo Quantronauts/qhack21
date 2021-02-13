@@ -41,8 +41,8 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 				<table>
 					<thead>
 						<tr>
-							<th align="center">RX(φ)</th>
-							<th align="center">RY(φ*i)</th>
+							<th align="center">RX</th>
+							<th align="center">RY</th>
 							<th align="center">OUT</th>
 						</tr>
 					</thead>
