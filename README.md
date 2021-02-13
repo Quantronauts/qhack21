@@ -1,12 +1,17 @@
 # qhack21 - Quant'ronauts
 Team repository for QHACK21, I'll change the name when we'll have a proper team name
 
-## Structure
+# Table of contents
+1. [Structure](#structure)
+2. [Idea](#idea)
+3. [Setup env](#setup_env)
+
+## Structure <a name="structure"></a>
 - main : only for archive and tag
 - develop : for merging and testing everything together
 - feature : to develop things
 
-## Idea
+## Idea <a name="idea"></a>
 ### First create quantum state with variational parameters
 - We need to create quantum state using variational circuit, example :
 <pre>
@@ -104,7 +109,7 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 ### Analyze results by graph
 ![Graph](graph_example.png)
 
-## Setup env
+## Setup env <a name="setup_env"></a>
 ### Create your virtual env
 - To create your virtual env I suggested to use [Anaconda](https://www.anaconda.com/products/individual)
 	- If you are on Linux you can setup your virtual env by using :
