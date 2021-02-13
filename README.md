@@ -6,6 +6,103 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 - develop : for merging and testing everything together
 - feature : to develop things
 
+## Idea
+### First create quantum state with variational parameters
+- We need to create quantum state using variational circuit, example :
+<pre>
+          |----|   |----|   |---------|
+  qu0  ---| RX |---| RY |---| MEASURE |
+          |----|   |----|   |---------|
+  				 |
+  c0   --------------------------o-----
+</pre>
+- Then run it with somes iterations (100) for each parameters
+
+#### Register output with parameters
+<table>
+	<thead>
+		<tr>
+			<th align="center">RX(φ)</th>
+			<th align="center">RY(φ*i)</th>
+			<th align="center">OUT</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td align="center">π</td>
+			<td align="center">0</td>
+			<td align="center">1</td>
+		</tr>
+		<tr>
+			<td align="center">π/3</td>
+			<td align="center">0</td>
+			<td align="center">0</td>
+		</tr>
+		<tr>
+			<td align="center">π/3</td>
+			<td align="center">0</td>
+			<td align="center">1</td>
+		</tr>
+		<tr>
+			<td align="center">π/3</td>
+			<td align="center">0</td>
+			<td align="center">0</td>
+		</tr>
+		<tr>
+			<td align="center">0</td>
+			<td align="center">2*π/3</td>
+			<td align="center">1</td>
+		</tr>
+		<tr>
+			<td align="center">0</td>
+			<td align="center">2*π/3</td>
+			<td align="center">1</td>
+		</tr>
+		<tr>
+			<td align="center">0</td>
+			<td align="center">2*π/3</td>
+			<td align="center">0</td>
+		</tr>
+		<tr>
+			<td align="center">2*π/3</td>
+			<td align="center">2*π/3</td>
+			<td align="center">1</td>
+		</tr>
+		<tr>
+			<td align="center">2*π/3</td>
+			<td align="center">2*π/3</td>
+			<td align="center">0</td>
+		</tr>
+		<tr>
+			<td align="center">2*π/3</td>
+			<td align="center">2*π/3</td>
+			<td align="center">0</td>
+		</tr>
+		<tr>
+			<td align="center">2*π/3</td>
+			<td align="center">π/3</td>
+			<td align="center">1</td>
+		</tr>
+		<tr>
+			<td align="center">2*π/3</td>
+			<td align="center">π/3</td>
+			<td align="center">0</td>
+		</tr>
+		<tr>
+			<td align="center">2*π/3</td>
+			<td align="center">π/3</td>
+			<td align="center">1</td>
+		</tr>
+		<tr>
+			<td align="center">...</td>
+			<td align="center">...</td>
+			<td align="center">...</td>
+		</tr>
+	</tbody>
+</table>
+
+### Analyze results by graph
+
 ## Setup env
 ### Create your virtual env
 - To create your virtual env I suggested to use [Anaconda](https://www.anaconda.com/products/individual)
