@@ -33,7 +33,7 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 	<tbody>
 		<tr>
 			<td>
-				<img src="graph_example.png">
+				<img src="graph_exa.png">
 				<br/><b>Legends :</b>
 				<ul>
 					<li>Blue : <i>Qats</i></li>
