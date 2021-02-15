@@ -44,8 +44,8 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 				<table>
 					<thead>
 						<tr>
-							<th align="center">RX</th>
-							<th align="center">RY</th>
+							<th align="center">RX(<i>x</i>)</th>
+							<th align="center">RZ(<i>x</i>)</th>
 							<th align="center">OUT</th>
 						</tr>
 					</thead>
@@ -73,16 +73,6 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 						<tr>
 							<td align="center">0</td>
 							<td align="center">2*π/3</td>
-							<td align="center">1</td>
-						</tr>
-						<tr>
-							<td align="center">0</td>
-							<td align="center">2*π/3</td>
-							<td align="center">1</td>
-						</tr>
-						<tr>
-							<td align="center">0</td>
-							<td align="center">2*π/3</td>
 							<td align="center">0</td>
 						</tr>
 						<tr>
@@ -93,7 +83,7 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 						<tr>
 							<td align="center">2*π/3</td>
 							<td align="center">2*π/3</td>
-							<td align="center">0</td>
+							<td align="center">1</td>
 						</tr>
 						<tr>
 							<td align="center">2*π/3</td>
