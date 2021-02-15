@@ -18,7 +18,7 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
         |----------|  |----------------------|
 	|  Device  |  |      Processing      |    
         | |------| |  | |-------|  |-------| |      |---------|
-  |0> --|-| S(x) |-|--|-| RX(y) |--| RY(y) |-|------| MEASURE |
+  |0> --|-| S(x) |-|--|-| RX(y) |--| RZ(y) |-|------| MEASURE |
         | |------| |  | |-------|  |-------| |      |---------|
   	|----------|  |----------------------|           |
   c0   --------------------------------------------------o-----
@@ -45,7 +45,7 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 					<thead>
 						<tr>
 							<th align="center">RX</th>
-							<th align="center">RY</th>
+							<th align="center">RZ</th>
 							<th align="center">OUT</th>
 						</tr>
 					</thead>
