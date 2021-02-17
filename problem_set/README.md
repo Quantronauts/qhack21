@@ -38,6 +38,6 @@
 				</table>
         
 **Legend** :
-- *submited* : :ballot_box_with_check:
-- *done but not submit* : :white_check_mark:
+- *submited* : :white_check_mark:
+- *done but not submit* : :ballot_box_with_check:
 - *not done* : :x:
