@@ -35,21 +35,19 @@ def find_max_independent_set(graph, params):
     depth = N_LAYERS
     dev = qml.device('default.qubit', wires=wires)
 
-    cost_h, mixer_h = qml.qaoa.max_independent_set(graph)
+    cost_h, mixer_h = qml.qaoa.max_independent_set(graph, constrained=True)
 
     def qaoa_layer(gamma, alpha):
         qml.qaoa.cost_layer(gamma, cost_h)
         qml.qaoa.mixer_layer(alpha, mixer_h)
 
     def circuit(params, **kwargs):
-        for w in wires:
-            qml.Hadamard(wires=w)
         qml.layer(qaoa_layer, depth, params[0], params[1])
 
     cost_function = qml.ExpvalCost(circuit, cost_h, dev)
 
     optimizer = qml.GradientDescentOptimizer()
-    steps = 6
+    steps = 2
 
     for i in range(steps):
         params = optimizer.step(cost_function, params)
