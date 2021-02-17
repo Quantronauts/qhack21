@@ -14,7 +14,7 @@
 			<td align="center">Simple Circuit</td>
 			<td align="center">:white_check_mark:</td>
 			<td align="center">:white_check_mark:</td>
-			<td align="center">:white_check_mark:/td>
+			<td align="center">:white_check_mark:</td>
 		</tr>
 		<tr>
 			<td align="center">Quantum Gradients</td>
