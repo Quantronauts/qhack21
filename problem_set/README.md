@@ -13,7 +13,7 @@
 						<tr>
 							<td align="center">Simple Circuit</td>
 							<td align="center">:ballot_box_with_check:</td>
-							<td align="center">:x:</td>
+							<td align="center">:ballot_box_with_check:</td>
               <td align="center">:x:</td>
 						</tr>
             <tr>
