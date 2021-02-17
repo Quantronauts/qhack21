@@ -18,13 +18,13 @@
 		</tr>
 		<tr>
 			<td align="center">Quantum Gradients</td>
-			<td align="center">:ballot_box_with_check:</td>
-			<td align="center">:ballot_box_with_check:</td>
+			<td align="center">:white_check_mark:</td>
+			<td align="center">:white_check_mark:</td>
 			<td align="center">:x:</td>
 		</tr>
 		<tr>
 			<td align="center">Circuit Training</td>
-			<td align="center">:ballot_box_with_check:</td>
+			<td align="center">:white_check_mark:</td>
 			<td align="center">:x:</td>
 			<td align="center">:x:</td>
 		</tr>
