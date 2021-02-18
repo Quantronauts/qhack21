@@ -31,7 +31,7 @@
 		<tr>
 			<td align="center">VQE</td>
 			<td align="center">:white_check_mark:</td>
-			<td align="center">:x:</td>
+			<td align="center">:white_check_mark:</td>
 			<td align="center">:x:</td>
 		</tr>
 	</tbody>
