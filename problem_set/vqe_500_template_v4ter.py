@@ -166,8 +166,8 @@ def find_excited_states(H):
         params, prev_energy = opt.step_and_cost(cost_fn, params)
         energy = cost_fn(params)
         conv = np.abs(energy - prev_energy)
-        if n % 20 == 0:
-            print('Iteration = {:},  Energy = {:.8f} Ha'.format(n, energy))
+        # if n % 20 == 0:
+        #     print('Iteration = {:},  Energy = {:.8f} Ha'.format(n, energy))
         if conv <= conv_tol:
             break
 
@@ -181,7 +181,7 @@ def find_excited_states(H):
     # energies[2] = cost_fn2(params)
 
     spectrum = np.sort(spectrum)
-    print(spectrum)
+    # print(spectrum)
     energies=spectrum[0:3]
     # energies = np.sort(energies)
     
