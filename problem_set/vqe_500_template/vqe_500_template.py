@@ -10,10 +10,8 @@ def find_excited_states(H):
     Fill in the missing parts between the # QHACK # markers below. Implement
     a variational method that can find the three lowest energies of the provided
     Hamiltonian.
-
     Args:
         H (qml.Hamiltonian): The input Hamiltonian
-
     Returns:
         The lowest three eigenenergies of the Hamiltonian as a comma-separated string,
         sorted from smallest to largest.
@@ -29,6 +27,8 @@ def find_excited_states(H):
 
         n_qubits = len(wires)
         n_rotations = len(params)
+
+        qml.RY(angles[0], wires=2)
 
         if n_rotations > 1:
             n_layers = n_rotations // n_qubits
@@ -112,7 +112,7 @@ def find_excited_states(H):
             qml.Rot(*params[0], wires=wires[0])
 
     num_qubits = len(H.wires)
-    num_param_sets = (2 ** num_qubits) - 1
+    num_param_sets = (2 ** num_qubits) - 1 + 7
     np.random.seed(0)
     params = np.random.uniform(low=-np.pi / 2, high=np.pi / 2, size=(num_param_sets+1, 3))
 
@@ -122,8 +122,8 @@ def find_excited_states(H):
     cost_fn1 = qml.ExpvalCost(variational_ansatz1, H, dev)
     cost_fn2 = qml.ExpvalCost(variational_ansatz2, H, dev)
 
-    max_iterations = 500
-    conv_tol = 1e-08
+    max_iterations = 1000
+    conv_tol = 1e-06
 
     def cost_fn(params):
          return cost_fn0(params) + 0.5*cost_fn1(params) + 0.25*cost_fn2(params)
@@ -143,8 +143,8 @@ def find_excited_states(H):
     energies[1] = cost_fn1(params)
     energies[2] = cost_fn2(params)
 
-    energies = np.sort(energies)
-    
+    #energies = np.sort(energies)
+
     # QHACK #
 
     return ",".join([str(E) for E in energies])
@@ -153,12 +153,9 @@ def find_excited_states(H):
 def pauli_token_to_operator(token):
     """
     DO NOT MODIFY anything in this function! It is used to judge your solution.
-
     Helper function to turn strings into qml operators.
-
     Args:
         token (str): A Pauli operator input in string form.
-
     Returns:
         A qml.Operator instance of the Pauli.
     """
@@ -189,12 +186,9 @@ def pauli_token_to_operator(token):
 def parse_hamiltonian_input(input_data):
     """
     DO NOT MODIFY anything in this function! It is used to judge your solution.
-
     Turns the contents of the input file into a Hamiltonian.
-
     Args:
         filename(str): Name of the input file that contains the Hamiltonian.
-
     Returns:
         qml.Hamiltonian object of the Hamiltonian specified in the file.
     """
