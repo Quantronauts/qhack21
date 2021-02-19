@@ -167,7 +167,7 @@ def find_excited_states(H):
         params = np.random.uniform(low=-np.pi / 2, high=np.pi / 2, size=(num_param_sets, 3))
 
         def cost_fn(params):
-            return 2.0*cost_fn0(params) + 1.0*cost_fn1_alt(params) + 0.5*cost_fn2(params)
+            return 2.0*cost_fn0(params) + 0.5*cost_fn1_alt(params) + 0.25*cost_fn2(params)
 
         #opt = qml.GradientDescentOptimizer(stepsize=0.8)
         opt = qml.NesterovMomentumOptimizer(stepsize=0.1)
