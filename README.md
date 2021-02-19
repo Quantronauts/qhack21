@@ -1,6 +1,6 @@
 # qhack21 - Quant'ronauts
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Team repository for QHACK21, I'll change the name when we'll have a proper team name
 
@@ -168,6 +168,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/saharbenrached"><img src="https://avatars.githubusercontent.com/u/58570811?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sahar Ben Rached</b></sub></a><br /><a href="https://github.com/mickahell/qhack21/commits?author=saharbenrached" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/AlainChance"><img src="https://avatars.githubusercontent.com/u/43089974?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alain</b></sub></a><br /><a href="https://github.com/mickahell/qhack21/commits?author=AlainChance" title="Code">💻</a></td>
   </tr>
 </table>
 
