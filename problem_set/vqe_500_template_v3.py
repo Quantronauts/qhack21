@@ -163,7 +163,7 @@ def find_excited_states(H):
     ### continue optimizing params to get also 1st excited state in ansatz1 ###
     if 2*2==4:
         def cost_fn_first(params):
-            return cost_fn0(params) + 0.5*cost_fn1(params)
+            return 2*cost_fn0(params) + 0.5*cost_fn1(params)
 
         opt = qml.NesterovMomentumOptimizer(stepsize=0.1)
 
@@ -182,6 +182,7 @@ def find_excited_states(H):
     ### continue optimizing params to get also 2nd excited state in ansatz2 ###
     if 2*2==4:
         def cost_fn_second(params):
+            # return cost_fn0(params) + 0.5*cost_fn1(params) + 0.25*cost_fn2(params)
             return cost_fn0(params) + 0.5*cost_fn1(params) + 0.25*cost_fn2(params)
 
         opt = qml.NesterovMomentumOptimizer(stepsize=0.1)

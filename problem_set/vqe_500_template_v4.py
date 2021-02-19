@@ -123,7 +123,7 @@ def find_excited_states(H):
     cost_fn2 = qml.ExpvalCost(variational_ansatz2, H, dev)
 
     max_iterations = 500
-    conv_tol = 1e-06
+    conv_tol = 1e-08
 
     def cost_fn(params):
          return cost_fn0(params) + 0.5*cost_fn1(params) + 0.25*cost_fn2(params)
