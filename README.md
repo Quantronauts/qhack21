@@ -9,7 +9,7 @@ Team repository for QHACK21
 2. [Setup env](#setup_env)
 
 ## Structure <a name="structure"></a>
-- Folder :
+- Folders :
 	- problem_set : folder for the problems set challenge
 	- hackaton : folder for our project
 - Branchs :
