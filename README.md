@@ -4,6 +4,8 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Team repository for QHACK21
 
+<img src="qhack-banner.png">
+
 ## Table of contents
 1. [Structure](#structure)
 2. [Setup env](#setup_env)
