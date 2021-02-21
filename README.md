@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Team repository for QHACK21, I'll change the name when we'll have a proper team name
+Team repository for QHACK21
 
 ## Table of contents
 1. [Structure](#structure)
