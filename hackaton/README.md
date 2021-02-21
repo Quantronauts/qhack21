@@ -4,11 +4,6 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Team repository for QHACK21, I'll change the name when we'll have a proper team name
 
-## Table of contents
-1. [Structure](#structure)
-2. [Idea](#idea)
-3. [Setup env](#setup_env)
-
 ## Structure <a name="structure"></a>
 - main : only for archive and tag
 - develop : for merging and testing everything together
@@ -36,7 +31,7 @@ Team repository for QHACK21, I'll change the name when we'll have a proper team 
 	<tbody>
 		<tr>
 			<td>
-				<img src="graph_exa.png">
+				<img src="../graph_exa.png">
 				<br/><b>Legends :</b>
 				<ul>
 					<li>Blue : <i>Qats</i></li>
