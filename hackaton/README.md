@@ -1,6 +1,17 @@
 # Qats & DoQs
 - Classifier of quantum cats and quantum dogs
 
+## Structure <a name="structure"></a>
+- Folders :
+	- datas : folder for the Qats and DoQs csv files
+	- devices : folder for the differents device (quantum generation)
+	- classifiers : folder for the differents classifiers
+	- combine : folder for the differents combining algorithms
+	- training : folder for the differents training algorithms
+	- testing : folder for the differents testing algorithms
+	- graphs : folder fo rthe differents graphs generation
+	- communication : folder for images and ressources to present the project
+
 ## Idea <a name="idea"></a>
 ### First create quantum state with variational parameters
 - We need to create quantum state using variational circuit, example :
