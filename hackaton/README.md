@@ -1,13 +1,5 @@
-# qhack21 - Quant'ronauts
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Team repository for QHACK21, I'll change the name when we'll have a proper team name
-
-## Structure <a name="structure"></a>
-- main : only for archive and tag
-- develop : for merging and testing everything together
-- feature : to develop things
+# Qats & DoQs
+- Classifier of quantum cats and quantum dogs
 
 ## Idea <a name="idea"></a>
 ### First create quantum state with variational parameters
