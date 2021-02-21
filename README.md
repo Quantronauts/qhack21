@@ -9,9 +9,13 @@ Team repository for QHACK21
 2. [Setup env](#setup_env)
 
 ## Structure <a name="structure"></a>
-- main : only for archive and tag
-- develop : for merging and testing everything together
-- feature : to develop things
+- Folder :
+	- problem_set : folder for the problems set challenge
+	- hackaton : folder for our project
+- Branchs :
+	- main : only for archive and tag
+	- develop : for merging and testing everything together
+	- feature : to develop things
 
 ## Setup env <a name="setup_env"></a>
 ### Create your virtual env
