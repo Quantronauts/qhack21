@@ -1,5 +1,5 @@
 ##########################################################################################
-# This script to launch the entire program on our data set and glue every module together
+# This script is to launch the entire program on our data set and glue every module together
 ##########################################################################################
 
 from datas import *
