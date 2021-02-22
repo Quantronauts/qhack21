@@ -10,7 +10,7 @@
 	- combine : folder for the differents combining algorithms
 	- training : folder for the differents training algorithms
 	- testing : folder for the differents testing algorithms
-	- graphs : folder fo rthe differents graphs generation
+	- graphs : folder for the differents graphs generation
 	- communication : folder for images and ressources to present the project
 
 ## Idea <a name="idea"></a>
