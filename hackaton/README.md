@@ -5,7 +5,7 @@
 - Final script : `final_script.py`
 - Folders :
 	- datas : folder for the Qats and DoQs csv files
-	- sensors : folder for the differents sensor (quantum generation)
+	- sensors : folder for the differents sensors (quantum generation)
 	- classifiers : folder for the differents classifiers
 	- combine : folder for the differents combining algorithms
 	- training : folder for the differents training algorithms
