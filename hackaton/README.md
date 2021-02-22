@@ -14,6 +14,9 @@
 	- communication : folder for images and ressources to present the project
 
 ## Idea <a name="idea"></a>
+The main idea is to classify quantum input, by analyzing their state. We split the qubits in 2 parts, the North half and the South half and define them by :
+- ~|0> = Qats
+- ~|1> = DoQs
 ### First create quantum state with variational parameters
 - First thing to do is imagine a device or sensor to generate quantum state (qubit) as a _black box_
 - Then create a classifier to study these states and classify them into Qats or DoQs
