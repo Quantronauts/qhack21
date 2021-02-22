@@ -15,10 +15,13 @@
 
 ## Idea <a name="idea"></a>
 ### First create quantum state with variational parameters
-- We need to create quantum state using variational circuit, example :
+- First thing to do is imagine a device or sensor to generate quantum state (qubit) as a _black box_
+- Then create a classifier to study these states and classify them into Qats or DoQs
+- Finally measure them and drawing graph
+Exemple :
 <pre>
         |----------|  |----------------------|
-	|  Device  |  |      Processing      |    
+	|  Sensor  |  |      Processing      |    
         | |------| |  | |-------|  |-------| |      |---------|
   |0> --|-| S(x) |-|--|-| RX(y) |--| RY(y) |-|------| MEASURE |
         | |------| |  | |-------|  |-------| |      |---------|
