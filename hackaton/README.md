@@ -20,8 +20,8 @@ The classify regions of the Hilbert space. E.g. :
 
 ### First create quantum state with variational parameters
 - As first step, we create a parameterized sensor that can create state vectors that fall either into the _cat_ or _dog_ region. (As black box)
-	- Ce could use any other device with different parameterization as long as it's capable of producing _dog_ and _cat_ states.
-- Then, we feed the output state of the device into a parameterized classifier circuit
+	- Ce could use any other sensor with different parameterization as long as it's capable of producing _dog_ and _cat_ states.
+- Then, we feed the output state of the sensor into a parameterized classifier circuit
 - Then, we optimize the classifier
 - Finally measure them and drawing graph
 
