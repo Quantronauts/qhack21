@@ -3,7 +3,7 @@
 #############################################################################################
 
 from datas import *
-from tensors import *
+from sensors import *
 from classifiers import *
 from combine import *
 from training import *
