@@ -9,3 +9,7 @@ from combine import *
 from training import *
 from testing import *
 from graphs import *
+
+import sys
+import pennylane as qml
+from pennylane import numpy as np
