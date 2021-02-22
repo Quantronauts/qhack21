@@ -14,27 +14,33 @@
 	- communication : folder for images and ressources to present the project
 
 ## Idea <a name="idea"></a>
-The main idea is to classify quantum input, by analyzing their state. We split the qubits in 2 parts, the North half and the South half and define them by :
-- ~|0> = Qats
-- ~|1> = DoQs
+The classify regions of the Hilbert space. E.g. :
+- The Northern hemisphere of the Bloch sphere is _cat_
+- The Southern hemisphere is _dog_
+
 ### First create quantum state with variational parameters
-- First thing to do is imagine a device or sensor to generate quantum state (qubit) as a _black box_
-- Then create a classifier to study these states and classify them into Qats or DoQs
+- As first step, we create a parameterized sensor that can create state vectors that fall either into the _cat_ or _dog_ region. (As black box)
+	- Ce could use any other device with different parameterization as long as it's capable of producing _dog_ and _cat_ states.
+- Then, we feed the output state of the device into a parameterized classifier circuit
+- Then, we optimize the classifier
 - Finally measure them and drawing graph
-Exemple :
+
 <pre>
-        |----------|  |----------------------|
-	|  Sensor  |  |      Processing      |    
-        | |------| |  | |-------|  |-------| |      |---------|
-  |0> --|-| S(x) |-|--|-| RX(y) |--| RY(y) |-|------| MEASURE |
-        | |------| |  | |-------|  |-------| |      |---------|
-  	|----------|  |----------------------|           |
-  c0   --------------------------------------------------o-----
+        |----------|  |------------------------------------------------------|
+	|  Sensor  |  |                    Processing                        |    
+        | |------| |  | |--------|                                |--------| |      |---------|
+  |0> --|-| S(x) |-|--|-| U<sub>1</sub>(θ<sub>1</sub>) |---------...----------...--------| U<sub>n</sub>(θ<sub>n</sub>) |-|------| MEASURE |
+        | |------| |  | |--------|                                |--------| |      |---------|
+  	|----------|  |------------------------------------------------------|           |
+  c0   ----------------------------------------------------------------------------------o-----
 </pre>
-1. We generated 100 *x* (format like *(X ; Z) --> (π/3 ; 2π/3)*) values labed to be Qat or DoQ
-2. Then run it for each *x* value
-3. Adjust *y* along the gradient (as PennyLane can calculate the [gradient](https://medium.com/xanaduai/training-quantum-neural-networks-with-pennylane-pytorch-and-tensorflow-c669108118cc) w.r.t. y)
-4. Redo step 2 and 3 again and again and again ...
+
+#### Catch
+- During operation, we cannot calculate expected values, because the sensor can run only once. So when we calculate the accuracy on the test set, we are not allowed to calculate expected values... we can run the circuit just once, make the PauliZ measurement, and if the result is "-1" we say "dog", if it's 1 we say "cat". (On the other hand, in the training phase we can optimize the circuit parameters, the thetas, using expected values of the measurements, as training is done in our laboratory. But operation may happen e.g. in a self-driving car.)
+
+#### Compare with 
+- The standard way of testing, that is, when we can run the circuit multiple times to get expected value of the PauliZ measurement :
+	- The result can be e.g. 0.5, then we classify it as "cat", as it's closer to 1 than to -1. (So, you see that when we can run the circuit only once, we can be unlucky that we get -1, even if the expected value over many runs is 0.5.)
 
 #### Register output with parameters and making graph state
 <table>
@@ -52,9 +58,9 @@ Exemple :
 				<table>
 					<thead>
 						<tr>
-							<th align="center">RX(<i>x</i>)</th>
-							<th align="center">RZ(<i>x</i>)</th>
-							<th align="center">OUT</th>
+							<th align="center">Sensor<i><sub>x</sub></i></th>
+							<th align="center">Sensor<i><sub>z</sub></i></th>
+							<th align="center">Final OUTPUT</th>
 						</tr>
 					</thead>
 					<tbody>
