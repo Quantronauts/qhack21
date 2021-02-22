@@ -13,3 +13,8 @@ from graphs import *
 import sys
 import pennylane as qml
 from pennylane import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+from mpl_toolkits.mplot3d import Axes3D
+from qutip import *
+from qutip.ipynbtools import plot_animation
