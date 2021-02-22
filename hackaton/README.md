@@ -2,6 +2,7 @@
 - Classifier of quantum cats and quantum dogs
 
 ## Structure <a name="structure"></a>
+- Final script : final_script.py
 - Folders :
 	- datas : folder for the Qats and DoQs csv files
 	- devices : folder for the differents device (quantum generation)
