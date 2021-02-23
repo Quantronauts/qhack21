@@ -8,7 +8,7 @@ import pennylane as qml
 def sensor(datas):
     qml.RX(datas[0], wires=0)
     qml.RY(datas[1], wires=0)
-    return qml.probs(0)
+    #return qml.probs(0)
 
 
 ##############################################################################
