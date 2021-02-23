@@ -2,9 +2,9 @@
 # This script is to launch the entire program on our data set and glue every module together
 #############################################################################################
 
-from datas import *
-from sensors import *
-from classifiers import *
+#from datas import *
+#from sensors import *
+#from classifiers import *
 from combine import *
 from training import *
 from testing import *
