@@ -14,9 +14,9 @@ from simple_1rot_classifier import classifier
 
 
 @qml.template
-def combine(datas, theta, wires):
+def combine(datas, params, wires):
     sensor(datas, wires=wires)
-    classifier(theta, wires=wires)
+    classifier(params, wires=wires)
 
 
 ##################################################################
@@ -32,8 +32,8 @@ def combine(datas, theta, wires):
 #
 #
 # theta = [3.14]
-# sensor = [3.14, 3.14, 0.12]
+# sensor_state = [3.14, 3.14, 0.12]
 #
-# result = circuit(sensor, theta)
+# result = circuit(sensor_state, theta)
 # prob = result[0]
 # print(prob)
