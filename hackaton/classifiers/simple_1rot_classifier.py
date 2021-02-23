@@ -7,4 +7,4 @@ import pennylane as qml
 
 @qml.template
 def classifier(params, wires):
-    qml.Rot(params, wires=wires[0])
+    qml.RX(params, wires=wires[0])
