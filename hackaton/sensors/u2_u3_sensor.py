@@ -12,7 +12,7 @@ def sensor(datas):
         qml.RZ(datas[2], wires=0)
     else:
         qml.RZ(datas[1], wires=0)
-    return qml.probs(0)
+    #return qml.probs(0)
 
 
 ##############################################################################
