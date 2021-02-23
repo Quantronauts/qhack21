@@ -13,15 +13,3 @@ def sensor(datas, wires):
         qml.RZ(datas[2], wires=wires[0])
     else:
         qml.RZ(datas[1], wires=wires[0])
-    #return qml.probs(0)
-
-
-##############################################################################
-# Testing
-
-# dev = qml.device('default.qubit', wires=1)
-# toto = [2.14, 3.14]
-# circ = qml.QNode(sensor, dev)
-# circ(toto)
-# print(circ.draw())
-
