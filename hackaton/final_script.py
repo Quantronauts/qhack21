@@ -12,6 +12,9 @@ from classifiers.simple_1rot_classifier import classifier
 #from combine.general_combine import combine
 
 
+"""
+   To use your dataset just change the csv file call 
+"""
 csv_training = pd.read_csv('datas/training_datas_xz.csv', header=None)
 csv_testing = pd.read_csv('datas/testing_datas_xz.csv', header=None)
 
@@ -21,6 +24,15 @@ csv_testing = pd.read_csv('datas/testing_datas_xz.csv', header=None)
 
 print("##################################################################\n"
       "# TRAINING")
+"""
+    Variables :
+    data_training : the xy // xyz data for only 1 qubit
+    label_training : the label for only 1 qubit
+    theta : the angle for the classifier
+"""
+
+theta = [3.14]
+
 for i in range(len(csv_training[0])):
     if csv_training.shape[1] == 3:
         data_training = [csv_training[0][i], csv_training[1][i]]
@@ -39,7 +51,6 @@ for i in range(len(csv_training[0])):
         return qml.expval(qml.PauliZ(0))
 
 
-    theta = [3.14]
     result = circuit(data_training, theta)
     prob = result
     print(prob)
@@ -50,13 +61,17 @@ for i in range(len(csv_training[0])):
 
 print("##################################################################\n"
       "# TESTING")
-for i in range(len(csv_training[0])):
-    if csv_training.shape[1] == 3:
-        data_training = [csv_training[0][i], csv_training[1][i]]
-        label_training = csv_training[2][i]
+"""
+    Variables :
+    data_testing : the xy // xyz data for only 1 qubit
+    theta : the angle for the classifier (given during the training phase)
+"""
+
+for i in range(len(csv_testing[0])):
+    if csv_testing.shape[1] == 2:
+        data_testing = [csv_testing[0][i], csv_testing[1][i]]
     else:
-        data_training = [csv_training[0][i], csv_training[1][i], csv_training[2][i]]
-        label_training = csv_training[3][i]
+        data_testing = [csv_testing[0][i], csv_testing[1][i], csv_testing[2][i]]
 
     dev = qml.device('default.qubit', wires=1)
 
@@ -68,7 +83,6 @@ for i in range(len(csv_training[0])):
         return qml.expval(qml.PauliZ(0))
 
 
-    theta = [3.14]
-    result = circuit(data_training, theta)
+    result = circuit(data_testing, theta)
     prob = result
     print(prob)
