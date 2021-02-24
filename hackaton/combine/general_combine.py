@@ -29,12 +29,12 @@ def combine(datas, params, wires):
 # def circuit(datas, params):
 #     combine(datas, params, wires=[0])
 #     classifier(params, wires=[0])
-#     return qml.probs(0)
+#     return qml.expval(qml.PauliZ(0))
 #
 #
 # theta = [3.14]
 # sensor_state = [3.14, 3.14, 0.12]
 #
 # result = circuit(sensor_state, theta)
-# prob = result[0]
+# prob = result
 # print(prob)
