@@ -28,6 +28,7 @@ def combine(datas, params, wires):
 # @qml.qnode(dev)
 # def circuit(datas, params):
 #     combine(datas, params, wires=[0])
+#     classifier(params, wires=[0])
 #     return qml.probs(0)
 #
 #
