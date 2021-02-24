@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 
 import pennylane as qml
-import numpy as np
+from pennylane import numpy as np
 
 
 def circuit(params, wires):
@@ -33,7 +33,6 @@ def init_params(wires, n_layers):
 
 
 if __name__ == "__main__":
-
     wires = range(3)
     dev = qml.device("default.qubit", wires=wires)
 
