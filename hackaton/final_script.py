@@ -3,7 +3,7 @@
 #############################################################################################
 
 import pennylane as qml
-import numpy as np
+from pennylane import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import sys
@@ -84,7 +84,6 @@ else:
     fig = plt.figure().gca(projection='3d')
     fig.scatter(prediction[0], prediction[1], prediction[2], c=prediction[3], cmap="coolwarm")
 plt.show()
-
 
 
 ##################################################################
