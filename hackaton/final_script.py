@@ -16,8 +16,8 @@ from classifiers.simple_1rot_classifier import classifier
 """
    To use your dataset just change the csv file call 
 """
-csv_training = pd.read_csv('datas/training_datas_xz.csv', header=None)
-csv_testing = pd.read_csv('datas/testing_datas_xz.csv', header=None)
+csv_training = pd.read_csv('datas/training_data_xz.csv', header=None)
+csv_testing = pd.read_csv('datas/testing_data_xz.csv', header=None)
 
 ##################################################################
 # Training phase
