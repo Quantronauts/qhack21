@@ -30,6 +30,9 @@ print("##################################################################\n"
     weights : the angle for the classifier
     wires : number of qubits for the classifier
     shots : number of shots
+    error_rate : number of error
+    circuit_run : number of circuit loop
+    optimizer_run : number of optimizer iteration
 """
 
 dev = qml.device('default.qubit', wires=1, shots=1)
@@ -37,21 +40,29 @@ n_qubits = len(dev.wires)
 n_layers = 2
 weights = np.random.uniform(low=-np.pi, high=np.pi, size=(n_layers * n_qubits, 3))
 opt = qml.GradientDescentOptimizer(stepsize=0.1)
+
+# Stats var
 error_rate = 0
+circuit_run = 0
+optimizer_run = 0
 
 if csv_training.shape[1] == 3:
     prediction = [[], [], []]
-else:
+elif csv_training.shape[1] == 4:
     prediction = [[], [], [], []]
+else:
+    print("Only two or three angles are allowed in training data set")
 
 # for i in range(len(csv_training[0])):
 for i in range(1000):
     if csv_training.shape[1] == 3:
         data_training = [csv_training[0][i], csv_training[1][i]]
         label_training = csv_training[2][i]
-    else:
+    elif csv_training.shape[1] == 4:
         data_training = [csv_training[0][i], csv_training[1][i], csv_training[2][i]]
         label_training = csv_training[3][i]
+    else:
+        print("Only two or three angles are allowed in training data set")
 
 
     @qml.qnode(dev)
@@ -94,6 +105,7 @@ for i in range(1000):
     # Run a first time the entire circuit
     result = entire_circuit(data_training, weights)
     prob = count_prob(result)
+    circuit_run += 1
 
     # Optimize th weights is the output is bad
     if (prob == -1 and label_training != "doq") or (prob == 1 and label_training != "qat"):
@@ -102,8 +114,10 @@ for i in range(1000):
             weights = opt.step(cost, weights)
             result = entire_circuit(data_training, weights)
             prob = count_prob(result)
+            circuit_run += 1
+            optimizer_run += 1
 
-            #if (i + 1) % 10 == 0:
+            # if (i + 1) % 10 == 0:
             # print("Cost after step {:5d}: {: .7f} -> {}".format(i + 1, prob, label_training))
 
             if (prob == -1 and label_training == "doq") or (prob == 1 and label_training == "qat"):
@@ -128,13 +142,14 @@ if len(prediction) == 3:
     plt.scatter(prediction[1], prediction[0], c=prediction[2], cmap="coolwarm")
     plt.plot([0,2*np.pi], [np.pi/2, np.pi/2], linestyle='--', c='#000000')
     plt.colorbar()
-else:
+elif len(prediction) == 4:
     fig = plt.figure().gca(projection='3d')
     fig.scatter(prediction[0], prediction[1], prediction[2], c=prediction[3], cmap="coolwarm")
 plt.show()
 
 print("Error rate : {} %".format(round(error_rate / len(prediction[0]) * 100, 3)))
-
+print("\nRessources used : \nCircuit run : {}, Optimize run : {}, Deph {}, Shot(s) : {}, Qubit(s) : {}"
+      .format(circuit_run, optimizer_run, n_layers, dev.shots, n_qubits))
 
 print("##################################################################\n"
       "# Testing")
