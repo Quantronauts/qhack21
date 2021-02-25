@@ -22,8 +22,12 @@ print(dev_1shot)
 
 @qml.qnode(dev_expval)
 def combined_expval(weights, x, wires):
-    hemi.circuit(x, wires)
-    rcnp.circuit(weights, wires)
+    n_qubits = len(wires)
+    n_layers = len(weights) // n_qubits
+
+    for i in range(n_layers):
+        hemi.circuit(x, wires) # data re-upload
+        rcnp.circuit(weights[i*n_qubits:(i+1)*n_qubits], wires)
 
     # create PauliZ ⊗ ... ⊗ PauliZ
     op = qml.PauliZ(0)
@@ -35,8 +39,12 @@ def combined_expval(weights, x, wires):
 
 @qml.qnode(dev_1shot)
 def combined_1shot(weights, x, wires):
-    hemi.circuit(x, wires)
-    rcnp.circuit(weights, wires)
+    n_qubits = len(wires)
+    n_layers = len(weights) // n_qubits
+
+    for i in range(n_layers):
+        hemi.circuit(x, wires) # data re-upload
+        rcnp.circuit(weights[i*n_qubits:(i+1)*n_qubits], wires)
 
     # create PauliZ ⊗ ... ⊗ PauliZ
     op = qml.PauliZ(0)
