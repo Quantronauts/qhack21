@@ -8,8 +8,8 @@ import pandas as pd
 import sys
 
 from sensors.u2_u3_sensor import sensor
-from classifiers.simple_1rot_classifier import classifier
 
+# from classifiers.simple_1rot_classifier import classifier
 # from combine.general_combine import combine
 
 
@@ -31,10 +31,7 @@ print("##################################################################\n"
     theta : the angle for the classifier
 """
 
-dev = qml.device('default.qubit', wires=1, shots=3)
-n_qubits = len(dev.wires)
-n_layers = 2
-weights = np.random.uniform(low=-np.pi, high=np.pi, size=(n_layers * n_qubits, 3))
+params = [np.pi/4]
 
 #for i in range(len(csv_training[0])):
 for i in range(20):
@@ -45,16 +42,18 @@ for i in range(20):
         data_training = [csv_training[0][i], csv_training[1][i], csv_training[2][i]]
         label_training = csv_training[3][i]
 
-    # dev = qml.device('default.qubit', wires=1, shots=3)
+    dev = qml.device('default.qubit', wires=1, shots=3)
 
 
     @qml.qnode(dev)
     def circuit(datas, params):
         sensor(datas, wires=[0])
-        classifier(params, wires=dev.wires)
+        for u in range(6):
+            qml.RZ(params, wires=[0])
+            qml.RY(params, wires=[0])
         return qml.sample(qml.PauliZ(0))
 
-    result = circuit(data_training, weights)
+    result = circuit(data_training, params)
     prob = result
     print("Data : {} ; {} = {}".format(data_training[0], data_training[1], prob))
 
