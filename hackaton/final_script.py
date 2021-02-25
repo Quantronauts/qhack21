@@ -148,7 +148,7 @@ elif len(prediction) == 4:
 plt.show()
 
 print("Error rate : {} %".format(round(error_rate / len(prediction[0]) * 100, 3)))
-print("\nRessources used : \nCircuit run : {}, Optimize run : {}, Deph {}, Shot(s) : {}, Qubit(s) : {}"
+print("\nResources used : \nCircuit run : {}, Optimize run : {}, Deph {}, Shot(s) : {}, Qubit(s) : {}"
       .format(circuit_run, optimizer_run, n_layers, dev.shots, n_qubits))
 
 print("##################################################################\n"
