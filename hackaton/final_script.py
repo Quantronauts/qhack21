@@ -9,7 +9,8 @@ import sys
 
 from sensors.u2_u3_sensor import sensor
 from classifiers.simple_1rot_classifier import classifier
-#from combine.general_combine import combine
+
+# from combine.general_combine import combine
 
 
 """
@@ -17,7 +18,6 @@ from classifiers.simple_1rot_classifier import classifier
 """
 csv_training = pd.read_csv('datas/training_datas_xz.csv', header=None)
 csv_testing = pd.read_csv('datas/testing_datas_xz.csv', header=None)
-
 
 ##################################################################
 # Training phase
@@ -31,9 +31,13 @@ print("##################################################################\n"
     theta : the angle for the classifier
 """
 
-theta = [3.14]
+dev = qml.device('default.qubit', wires=1, shots=3)
+n_qubits = len(dev.wires)
+n_layers = 2
+weights = np.random.uniform(low=-np.pi, high=np.pi, size=(n_layers * n_qubits, 3))
 
-for i in range(len(csv_training[0])):
+#for i in range(len(csv_training[0])):
+for i in range(20):
     if csv_training.shape[1] == 3:
         data_training = [csv_training[0][i], csv_training[1][i]]
         label_training = csv_training[2][i]
@@ -41,48 +45,48 @@ for i in range(len(csv_training[0])):
         data_training = [csv_training[0][i], csv_training[1][i], csv_training[2][i]]
         label_training = csv_training[3][i]
 
-    dev = qml.device('default.qubit', wires=1)
+    # dev = qml.device('default.qubit', wires=1, shots=3)
 
 
     @qml.qnode(dev)
     def circuit(datas, params):
         sensor(datas, wires=[0])
-        classifier(params, wires=[0])
-        return qml.expval(qml.PauliZ(0))
+        classifier(params, wires=dev.wires)
+        return qml.sample(qml.PauliZ(0))
 
-
-    result = circuit(data_training, theta)
+    result = circuit(data_training, weights)
     prob = result
-    print(prob)
+    print("Data : {} ; {} = {}".format(data_training[0], data_training[1], prob))
+
 
 
 ##################################################################
 # Testing phase
 
-print("##################################################################\n"
-      "# TESTING")
-"""
-    Variables :
-    data_testing : the xy // xyz data for only 1 qubit
-    theta : the angle for the classifier (given during the training phase)
-"""
-
-for i in range(len(csv_testing[0])):
-    if csv_testing.shape[1] == 2:
-        data_testing = [csv_testing[0][i], csv_testing[1][i]]
-    else:
-        data_testing = [csv_testing[0][i], csv_testing[1][i], csv_testing[2][i]]
-
-    dev = qml.device('default.qubit', wires=1)
-
-
-    @qml.qnode(dev)
-    def circuit(datas, params):
-        sensor(datas, wires=[0])
-        classifier(params, wires=[0])
-        return qml.expval(qml.PauliZ(0))
-
-
-    result = circuit(data_testing, theta)
-    prob = result
-    print(prob)
+# print("##################################################################\n"
+#       "# TESTING")
+# """
+#     Variables :
+#     data_testing : the xy // xyz data for only 1 qubit
+#     theta : the angle for the classifier (given during the training phase)
+# """
+#
+# for i in range(len(csv_testing[0])):
+#     if csv_testing.shape[1] == 2:
+#         data_testing = [csv_testing[0][i], csv_testing[1][i]]
+#     else:
+#         data_testing = [csv_testing[0][i], csv_testing[1][i], csv_testing[2][i]]
+#
+#     dev = qml.device('default.qubit', wires=1)
+#
+#
+#     @qml.qnode(dev)
+#     def circuit(datas, params):
+#         sensor(datas, wires=[0])
+#         classifier(params, wires=[0])
+#         return qml.expval(qml.PauliZ(0))
+#
+#
+#     result = circuit(data_testing, theta)
+#     prob = result
+#     print(prob)
