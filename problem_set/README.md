@@ -1,38 +1,49 @@
 # Problem set repo
 ### Status problem set
 <table>
-	<thead>
-		<tr>
-			<th align="center">Problem set</th>
-			<th align="center">1</th>
-			<th align="center">2</th>
-			<th align="center">3</th>
-		</tr>
-	</thead>
 	<tbody>
 		<tr>
-			<td align="center">Simple Circuit</td>
-			<td align="center">:white_check_mark:</td>
-			<td align="center">:white_check_mark:</td>
-			<td align="center">:white_check_mark:</td>
-		</tr>
-		<tr>
-			<td align="center">Quantum Gradients</td>
-			<td align="center">:white_check_mark:</td>
-			<td align="center">:white_check_mark:</td>
-			<td align="center">:white_check_mark:</td>
-		</tr>
-		<tr>
-			<td align="center">Circuit Training</td>
-			<td align="center">:white_check_mark:</td>
-			<td align="center">:white_check_mark:</td>
-			<td align="center">:white_check_mark:</td>
-		</tr>
-		<tr>
-			<td align="center">VQE</td>
-			<td align="center">:white_check_mark:</td>
-			<td align="center">:white_check_mark:</td>
-			<td align="center">:white_check_mark:</td>
+			<td>
+				<table>
+					<thead>
+						<tr>
+							<th align="center">Problem set</th>
+							<th align="center">1</th>
+							<th align="center">2</th>
+							<th align="center">3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td align="center">Simple Circuit</td>
+							<td align="center">:white_check_mark:</td>
+							<td align="center">:white_check_mark:</td>
+							<td align="center">:white_check_mark:</td>
+						</tr>
+						<tr>
+							<td align="center">Quantum Gradients</td>
+							<td align="center">:white_check_mark:</td>
+							<td align="center">:white_check_mark:</td>
+							<td align="center">:white_check_mark:</td>
+						</tr>
+						<tr>
+							<td align="center">Circuit Training</td>
+							<td align="center">:white_check_mark:</td>
+							<td align="center">:white_check_mark:</td>
+							<td align="center">:white_check_mark:</td>
+						</tr>
+						<tr>
+							<td align="center">VQE</td>
+							<td align="center">:white_check_mark:</td>
+							<td align="center">:white_check_mark:</td>
+							<td align="center">:white_check_mark:</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+			<td>
+				<img src="ranking_challenge_set.png">
+			</td>
 		</tr>
 	</tbody>
 </table>

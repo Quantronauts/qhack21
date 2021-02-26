@@ -1,0 +1,60 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "saharbenrached",
+      "name": "Sahar Ben Rached",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58570811?v=4",
+      "profile": "https://github.com/saharbenrached",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AlainChance",
+      "name": "Alain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43089974?v=4",
+      "profile": "https://github.com/AlainChance",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Zed-Is-Dead",
+      "name": "LQuerellaZ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7906730?v=4",
+      "profile": "https://github.com/Zed-Is-Dead",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "tvarga78",
+      "name": "Tamás Varga",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72672758?v=4",
+      "profile": "http://q-edu-lab.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mickahell",
+      "name": "Mica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20951376?v=4",
+      "profile": "https://github.com/mickahell",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "qhack21",
+  "projectOwner": "mickahell",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

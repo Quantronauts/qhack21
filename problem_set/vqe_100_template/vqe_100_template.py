@@ -31,14 +31,14 @@ def variational_ansatz(params, wires):
         # Alternating layers of unitary rotations on every qubit followed by a
         # ring cascade of CNOTs.
         for layer_idx in range(n_layers):
-            layer_params = params[layer_idx * n_qubits : layer_idx * n_qubits + n_qubits, :]
+            layer_params = params[layer_idx * n_qubits: layer_idx * n_qubits + n_qubits, :]
             qml.broadcast(qml.Rot, wires, pattern="single", parameters=layer_params)
             qml.broadcast(qml.CNOT, wires, pattern="ring")
 
         # There may be "extra" parameter sets required for which it's not necessarily
         # to perform another full alternating cycle. Apply these to the qubits as needed.
         extra_params = params[-n_extra_rots:, :]
-        extra_wires = wires[: n_qubits - 1 - n_extra_rots : -1]
+        extra_wires = wires[: n_qubits - 1 - n_extra_rots: -1]
         qml.broadcast(qml.Rot, extra_wires, pattern="single", parameters=extra_params)
     else:
         # For 1-qubit case, just a single rotation to the qubit
@@ -65,23 +65,24 @@ def run_vqe(H):
     energy = 0
 
     # QHACK #
-    
+
     variational_ansatz(params, H.wires)
 
     dev = qml.device('default.qubit', wires=num_qubits)
-    
-    cost_fn = qml.ExpvalCost(variational_ansatz, H, dev) 
-    
+
+    cost_fn = qml.ExpvalCost(variational_ansatz, H, dev)
+
     opt = qml.GradientDescentOptimizer(stepsize=0.1)
-    
-    max_iterations = 500
- 
+
+    max_iterations = 2
 
     for n in range(max_iterations):
         params, prev_energy = opt.step_and_cost(cost_fn, params)
         energy = cost_fn(params)
         conv = np.abs(energy - prev_energy)
- 
+
+    print(cost_fn.draw())
+
     # QHACK #
 
     # Return the ground state energy

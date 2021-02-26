@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCRIBUSUTF8NEW Version="1.5.6.1">
+    <DOCUMENT ANZPAGES="3" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" PRESET="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="1" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="1" DFONT="Arial Regular" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" TextDistLeft="0" TextDistRight="0" TextDistBottom="0" TextDistTop="0" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="100" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPPr="ISO Coated v2 300% (basICColor)" DPIn="sRGB display profile (ICC v2.2)" DPInCMYK="ISO Coated v2 300% (basICColor)" DPIn2="sRGB display profile (ICC v2.2)" DPIn3="ISO Coated v2 300% (basICColor)" DISc="1" DIIm="0" ALAYER="0" LANGUAGE="fr" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="0" SnapToGuides="0" SnapToGrid="0" SnapToElement="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWControl="0" SHOWLAYERM="0" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.502045814642449" POLYR="0" POLYIR="0" POLYCUR="0" POLYOCUR="0" POLYS="0" arcStartAngle="30" arcSweepAngle="300" spiralStartAngle="0" spiralEndAngle="1080" spiralFactor="1.2" AutoSave="1" AutoSaveTime="600000" AutoSaveCount="1" AutoSaveKeep="0" AUtoSaveInDocDir="1" AutoSaveDir="" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" CPICT="None" PICTSHADE="100" CSPICT="None" PICTSSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="10.0006299212598" dispY="10.0006299212598" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" renderStack="2 0 4 1 3" GridType="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PDF 1.4" calligraphicPenFillColor="Black" calligraphicPenLineColor="Black" calligraphicPenFillColorShade="100" calligraphicPenLineColorShade="100" calligraphicPenLineWidth="1" calligraphicPenAngle="0" calligraphicPenWidth="10" calligraphicPenStyle="1">
+        <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.6" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-1a" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="1" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="1" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="1" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PostScript" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <COLOR NAME="Black" SPACE="CMYK" C="0" M="0" Y="0" K="100"/>
+        <COLOR NAME="Blue" SPACE="RGB" R="0" G="0" B="255"/>
+        <COLOR NAME="Cool Black" SPACE="CMYK" C="60" M="0" Y="0" K="100"/>
+        <COLOR NAME="Cyan" SPACE="CMYK" C="100" M="0" Y="0" K="0"/>
+        <COLOR NAME="Green" SPACE="RGB" R="0" G="255" B="0"/>
+        <COLOR NAME="Magenta" SPACE="CMYK" C="0" M="100" Y="0" K="0"/>
+        <COLOR NAME="Red" SPACE="RGB" R="255" G="0" B="0"/>
+        <COLOR NAME="Registration" SPACE="CMYK" C="100" M="100" Y="100" K="100" Register="1"/>
+        <COLOR NAME="Rich Black" SPACE="CMYK" C="60" M="40" Y="40" K="100"/>
+        <COLOR NAME="Warm Black" SPACE="CMYK" C="0" M="60" Y="29.8039215686275" K="100"/>
+        <COLOR NAME="White" SPACE="CMYK" C="0" M="0" Y="0" K="0"/>
+        <COLOR NAME="Yellow" SPACE="CMYK" C="0" M="0" Y="100" K="0"/>
+        <HYPHEN/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Arial Regular" FONTSIZE="12" FONTFEATURES="" FEATURES="inherit" FCOLOR="Black" FSHADE="100" HyphenWordMin="3" SCOLOR="Black" BGCOLOR="None" BGSHADE="100" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="fr"/>
+        <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </TableStyle>
+        <CellStyle NAME="Default Cell Style" DefaultStyle="1" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </CellStyle>
+        <LAYERS NUMMER="0" LEVEL="0" NAME="Fond de page" SICHTBAR="1" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="0" mirrorV="0" useICC="0" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PrintEngine="4" markLength="20.0013" markOffset="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="Microsoft Print to PDF" filename="" separationName="All" printerCommand=""/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="1" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="16" Intent="1" Intent2="0" SolidP="sRGB display profile (ICC v2.2)" ImageP="sRGB display profile (ICC v2.2)" PrintP="ISO Coated v2 300% (basICColor)" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markLength="20.0012598425197" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
+            <Subset Name="Arial Regular"/>
+            <LPI Color="" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
+            <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
+            <LPI Color="Yellow" Frequency="133" Angle="90" SpotFunction="3"/>
+        </PDF>
+        <DocItemAttributes/>
+        <TablesOfContents/>
+        <NotesStyles>
+            <notesStyle Name="Default" Start="1" Endnotes="0" Type="Type_1_2_3" Range="0" Prefix="" Suffix=")" AutoHeight="1" AutoWidth="1" AutoRemove="1" AutoWeld="1" SuperNote="1" SuperMaster="1" MarksStyle="" NotesStyle=""/>
+        </NotesStyles>
+        <PageSets>
+            <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
+            <Set Name="Facing Pages" FirstPage="1" Rows="1" Columns="2">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle Left"/>
+                <PageNames Name="Middle Right"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+        </PageSets>
+        <Sections>
+            <Section Number="0" Name="0" From="0" To="2" Type="Type_1_2_3" Start="1" Reversed="0" Active="1" FillChar="0" FieldWidth="0"/>
+        </Sections>
+        <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="Normal gauche" MNAM="" Size="A4" Orientation="0" LEFT="1" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="1" NAM="Normal droite" MNAM="" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="695.276220472441" PAGEYPOS="20.0012598425197" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="" MNAM="Normal droite" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="901.890708661418" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="1" NAM="" MNAM="Normal gauche" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="695.276220472441" PAGEYPOS="901.890708661418" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="2" NAM="" MNAM="Normal droite" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGEOBJECT XPOS="736.453385826772" YPOS="59.3181818181819" OwnPage="0" ItemID="411615648" PTYPE="6" WIDTH="515.663006442377" HEIGHT="761.678711524696" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Yellow" SHADE="50" PCOLOR2="Black" PLINEART="1" TransValue="0.8" path="M0 0 L515.663 0 L515.663 761.679 L0 761.679 L0 0 Z" copath="M0 0 L515.663 0 L515.663 761.679 L0 761.679 L0 0 Z" gXpos="-185.42727272727" gYpos="417.02727272727" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="736.078324982105" YPOS="59.2805583392985" OwnPage="0" ItemID="411643968" PTYPE="6" WIDTH="515.663006442377" HEIGHT="761.678711524696" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" SHADE="50" PCOLOR2="Cool Black" SHADE2="10" PLINEART="1" path="M0 0 L515.663 0 L515.663 761.679 L0 761.679 L0 0 Z" copath="M0 0 L515.663 0 L515.663 761.679 L0 761.679 L0 0 Z" gXpos="96.5727272727269" gYpos="-72.9727272727272" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="736.444824624194" YPOS="943.391109520401" OwnPage="2" ItemID="411652464" PTYPE="6" WIDTH="515.663006442377" HEIGHT="761.678711524696" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Yellow" SHADE="50" PCOLOR2="Black" PLINEART="1" TransValue="0.8" path="M0 0 L515.663 0 L515.663 761.679 L0 761.679 L0 0 Z" copath="M0 0 L515.663 0 L515.663 761.679 L0 761.679 L0 0 Z" gXpos="516.57272727273" gYpos="1292.02727272727" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="139.787415891199" YPOS="941.935103793845" OwnPage="1" ItemID="411658128" PTYPE="6" WIDTH="515.663006442377" HEIGHT="761.678711524696" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Yellow" SHADE="50" PCOLOR2="Black" PLINEART="1" TransValue="0.8" path="M0 0 L515.663 0 L515.663 761.679 L0 761.679 L0 0 Z" copath="M0 0 L515.663 0 L515.663 761.679 L0 761.679 L0 0 Z" gXpos="1592.57272727273" gYpos="660.027272727273" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="781.802233357194" YPOS="73.2363636363636" OwnPage="0" ItemID="280769216" PTYPE="4" WIDTH="426.552727272727" HEIGHT="22.9090909090909" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L426.553 0 L426.553 22.9091 L0 22.9091 L0 0 Z" copath="M0 0 L426.553 0 L426.553 22.9091 L0 22.9091 L0 0 Z" gXpos="781.802233357194" gYpos="73.2363636363636" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="20" FEATURES="inherit shadowed" FCOLOR="Blue" FSHADE="100" CH="Telling quantum DoQs and quantum Qats apart"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="899.330136005726" YPOS="115.6" OwnPage="0" ItemID="280817360" PTYPE="4" WIDTH="148.381188260559" HEIGHT="17.8545454545455" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L148.381 0 L148.381 17.8545 L0 17.8545 L0 0 Z" copath="M0 0 L148.381 0 L148.381 17.8545 L0 17.8545 L0 0 Z" gXpos="899.330136005726" gYpos="115.6" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="16" FCOLOR="Blue" FSHADE="100" CH="Team Quant'ronauts"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="746.134488188976" YPOS="247.363636363636" OwnPage="0" ItemID="280803200" PTYPE="4" WIDTH="487.55905511811" HEIGHT="90.9818181818182" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L487.559 0 L487.559 90.9818 L0 90.9818 L0 0 Z" copath="M0 0 L487.559 0 L487.559 90.9818 L0 90.9818 L0 0 Z" gXpos="746.134488188976" gYpos="247.363636363636" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FEATURES="inherit outline" FCOLOR="Blue" FSHADE="100" CH="Idea"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=": we classify regions of the Hilbert space, of quantum states of n qubits. There are 2 categories, &quot;Qat&quot; and &quot;DoQ&quot;. As an example, for n=1, one hemisphere of the Bloch sphere could be labelled &quot;Qat&quot;, the other hemisphere &quot;DoQ&quot;. The state vectors to classify are generated as the output of a sensor, which is then fed into a classifier circuit of M layers. Note that we are NOT classifying the classical params vector of the sensor, as we could use any other sensor with different parameterization as long as it's capable of producing Qat and DoQ states. Also, we take the sensor as is, we don't try to &quot;optimize&quot; it."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="744.969133858268" YPOS="346.828031496063" OwnPage="0" ItemID="280797536" PTYPE="4" WIDTH="487.633729420186" HEIGHT="95.6265139584825" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L487.634 0 L487.634 95.6265 L0 95.6265 L0 0 Z" copath="M0 0 L487.634 0 L487.634 95.6265 L0 95.6265 L0 0 Z" gXpos="744.969133858268" gYpos="346.828031496063" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FEATURES="inherit outline" FCOLOR="Blue" FSHADE="100" CH="Catch"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=": during operation, the sensor can only produce its output once. Thus, when we calculate the accuracy on the test set, we are not allowed to make use of expected values resulting from many shots. There is only 1 shot (in the training phase, we can optimize using expected values, as training is done in our laboratory where we can recreate the sensor outputs of the training set at will). We'd like to experiment how much the accuracy drops due to this 1-shot limitation, whether it's different using simulator vs real quantum hardware, and what kind of cost function would reduce this impact."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="774.835275590551" YPOS="452.563636363636" OwnPage="0" ItemID="280806032" PTYPE="2" WIDTH="295.346542591267" HEIGHT="45.8000000000003" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.286250000000002" LOCALSCY="0.286250000000002" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Process.png" PRFILE="Embedded Display" IRENDER="0" EPROF="Embedded Display" path="M0 0 L295.347 0 L295.347 45.8 L0 45.8 L0 0 Z" copath="M0 0 L295.347 0 L295.347 45.8 L0 45.8 L0 0 Z" gXpos="774.835275590551" gYpos="452.563636363636" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="746.621045096636" YPOS="512.218181818182" OwnPage="0" ItemID="280800368" PTYPE="4" WIDTH="487.907143879742" HEIGHT="77.310637079456" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L487.907 0 L487.907 77.3106 L0 77.3106 L0 0 Z" copath="M0 0 L487.907 0 L487.907 77.3106 L0 77.3106 L0 0 Z" gXpos="697.969133858268" gYpos="375.828031496063" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FEATURES="inherit outline" FCOLOR="Blue" FSHADE="100" CH="Extra:"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=" if multiple shots are allowed, how much would a data re-uploading scheme improve the accuracy? E.g. imagine there are M identical sensors located very close to each other. When a certain physical event happens, it sets all the parameters of the M sensors at once, identically for each sensor. Then, the parameters don't change until the next event. Furthermore, there may be exponentially many parameters of the sensor, inaccessible to us. So again, we are classifying quantum states."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="826.130136005726" YPOS="109.672727272727" OwnPage="0" ItemID="280808864" PTYPE="2" WIDTH="61.5319112383679" HEIGHT="27.3679026485326" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0492255289906943" LOCALSCY="0.0492255289906943" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="qhack-banner.png" IRENDER="0" EMBEDDED="0" path="M0 0 L61.5319 0 L61.5319 27.3679 L0 27.3679 L0 0 Z" copath="M0 0 L61.5319 0 L61.5319 27.3679 L0 27.3679 L0 0 Z" gXpos="826.130136005726" gYpos="109.672727272727" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="866.154960629921" YPOS="224.832727272727" OwnPage="0" ItemID="185555232" PTYPE="4" WIDTH="52.4109090909092" HEIGHT="11.52" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L52.4109 0 L52.4109 11.52 L0 11.52 L0 0 Z" copath="M0 0 L52.4109 0 L52.4109 11.52 L0 11.52 L0 0 Z" gXpos="911.595590551181" gYpos="121.705454545455" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="8" FCOLOR="Blue" FSHADE="100" CH="Michaël Rollin"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="861.111954187545" YPOS="161.08" OwnPage="0" ItemID="185532576" PTYPE="2" WIDTH="59.9636363636363" HEIGHT="59.763779527559" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.149409448818898" LOCALSCY="0.149409448818898" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Michaël Rollin.jpg" IRENDER="0" EMBEDDED="0" path="M0 0 L59.9636 0 L59.9636 59.7638 L0 59.7638 L0 0 Z" copath="M0 0 L59.9636 0 L59.9636 59.7638 L0 59.7638 L0 0 Z" gXpos="861.111954187545" gYpos="161.08" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="932.898267716535" YPOS="225.009133858268" OwnPage="0" ItemID="185560896" PTYPE="4" WIDTH="69.563705900399" HEIGHT="11.52" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L69.5637 0 L69.5637 11.52 L0 11.52 L0 0 Z" copath="M0 0 L69.5637 0 L69.5637 11.52 L0 11.52 L0 0 Z" gXpos="860.595590551181" gYpos="142.705454545455" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="8" FCOLOR="Blue" FSHADE="100" CH="Sahar Ben Rached"/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="935.820415175376" YPOS="159.690909090909" OwnPage="0" ItemID="185546736" PTYPE="2" WIDTH="62.1818181818181" HEIGHT="62.2051948051949" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.155454545454545" LOCALSCY="0.155454545454545" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Sahar Ben Rached.jpg" IRENDER="0" EMBEDDED="0" path="M0 0 L62.1818 0 L62.1818 62.2052 L0 62.2052 L0 0 Z" copath="M0 0 L62.1818 0 L62.1818 62.2052 L0 62.2052 L0 0 Z" gXpos="935.820415175376" gYpos="159.690909090909" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="1012.65677881174" YPOS="224.981818181818" OwnPage="0" ItemID="185535408" PTYPE="4" WIDTH="56.5721975662133" HEIGHT="11.52" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L56.5722 0 L56.5722 11.52 L0 11.52 L0 0 Z" copath="M0 0 L56.5722 0 L56.5722 11.52 L0 11.52 L0 0 Z" gXpos="797.595590551181" gYpos="168.705454545455" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="9" FCOLOR="Blue" FSHADE="100" CH="Tamás Varga"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="1010.80483075979" YPOS="159.8" OwnPage="0" ItemID="185543904" PTYPE="2" WIDTH="60.5922077922079" HEIGHT="61.2181818181818" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.15148051948052" LOCALSCY="0.15148051948052" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Tamás Varga.jpg" IRENDER="0" EMBEDDED="0" path="M0 0 L60.5922 0 L60.5922 61.2182 L0 61.2182 L0 0 Z" copath="M0 0 L60.5922 0 L60.5922 61.2182 L0 61.2182 L0 0 Z" gXpos="1010.80483075979" gYpos="159.8" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="1079.02041517538" YPOS="224.163636363636" OwnPage="0" ItemID="185549568" PTYPE="4" WIDTH="62.9454545454547" HEIGHT="11.52" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L62.9455 0 L62.9455 11.52 L0 11.52 L0 0 Z" copath="M0 0 L62.9455 0 L62.9455 11.52 L0 11.52 L0 0 Z" gXpos="769.595590551181" gYpos="167.705454545455" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="8" FCOLOR="Blue" FSHADE="100" CH="Laurent Querella"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="1081.12171387667" YPOS="159.072125984252" OwnPage="0" ItemID="185563728" PTYPE="2" WIDTH="61.2096247060025" HEIGHT="61.7716535433071" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.2201785061367" LOCALSCY="0.2201785061367" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Laurent Querella.jpg" IRENDER="0" EMBEDDED="0" path="M0 0 L61.2096 0 L61.2096 61.7717 L0 61.7717 L0 0 Z" copath="M0 0 L61.2096 0 L61.2096 61.7717 L0 61.7717 L0 0 Z" gXpos="1081.12171387667" gYpos="159.072125984252" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="793.032125984252" YPOS="223.927272727273" OwnPage="0" ItemID="185541072" PTYPE="4" WIDTH="50.4766008794356" HEIGHT="11.52" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L50.4766 0 L50.4766 11.52 L0 11.52 L0 0 Z" copath="M0 0 L50.4766 0 L50.4766 11.52 L0 11.52 L0 0 Z" gXpos="702.595590551181" gYpos="117.705454545455" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="8" FCOLOR="Blue" FSHADE="100" CH="Alain Chancé"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="789.137298292259" YPOS="161.303896103896" OwnPage="0" ItemID="185538240" PTYPE="2" WIDTH="58.9740259740261" HEIGHT="59.0883116883117" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.119370326643054" LOCALSCY="0.119370326643054" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="../../../Alain/Photos/Alain Chancé 2.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L58.974 0 L58.974 59.0883 L0 59.0883 L0 0 Z" copath="M0 0 L58.974 0 L58.974 59.0883 L0 59.0883 L0 0 Z" gXpos="789.137298292259" gYpos="161.303896103896" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="200.0859269864" YPOS="961.418181818182" OwnPage="1" ItemID="185589216" PTYPE="4" WIDTH="426.552727272727" HEIGHT="22.9090909090909" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L426.553 0 L426.553 22.9091 L0 22.9091 L0 0 Z" copath="M0 0 L426.553 0 L426.553 22.9091 L0 22.9091 L0 0 Z" gXpos="625.802233357194" gYpos="1.23636363636361" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="20" FEATURES="inherit shadowed" FCOLOR="Blue" FSHADE="100" CH="Telling quantum DoQs and quantum Qats apart"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="503.008460987831" YPOS="1136.43218324982" OwnPage="1" ItemID="270267360" PTYPE="2" WIDTH="134.4" HEIGHT="48.2223622047245" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.191358580177478" LOCALSCY="0.191358580177478" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="graph-testing_500data_1shot_1qubit.png" IRENDER="0" EMBEDDED="0" path="M0 0 L134.4 0 L134.4 48.2224 L0 48.2224 L0 0 Z" copath="M0 0 L134.4 0 L134.4 48.2224 L0 48.2224 L0 0 Z" gXpos="503.008460987831" gYpos="1136.43218324982" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="145.189606299213" YPOS="1034.29090909091" OwnPage="1" ItemID="270281520" PTYPE="4" WIDTH="506.885838008079" HEIGHT="93.8363636363636" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L506.886 0 L506.886 93.8364 L0 93.8364 L0 0 Z" copath="M0 0 L506.886 0 L506.886 93.8364 L0 93.8364 L0 0 Z" gXpos="145.189606299213" gYpos="1034.29090909091" gWidth="506.885838008079" gHeight="107.966558441558" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Step 3 - Training:"/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="The θ parameters of the classifier are initialized randomly, then we use the Gradient Descent optimizer to optimize the sensor’s output over 50 steps. During training, the aim is for the sensor outputs labelled &quot;Qat&quot;, the measurement result (expected value of 30 shots) should be close to 1, while for sensor outputs labelled &quot;DoQ&quot;, the measurement would be close to -1."/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="For the training, we used a random training set of 500 labelled sensor outputs."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="145.200119599724" YPOS="1137.10754599373" OwnPage="1" ItemID="280766384" PTYPE="4" WIDTH="352.962886842653" HEIGHT="46.8560903699015" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L352.963 0 L352.963 46.8561 L0 46.8561 L0 0 Z" copath="M0 0 L352.963 0 L352.963 46.8561 L0 46.8561 L0 0 Z" gXpos="145.200119599724" gYpos="1137.10754599373" gWidth="507.43561411538" gHeight="245.83790855172" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="4- Results"/>
+                <ITEXT CH=" - "/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="For testing, we used a random test set of unseen 1000 labelled sensor outputs."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="744.881188260558" YPOS="681.650365068003" OwnPage="0" ItemID="365940480" PTYPE="4" WIDTH="399.918811739442" HEIGHT="62.6120114531138" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L399.919 0 L399.919 62.612 L0 62.612 L0 0 Z" copath="M0 0 L399.919 0 L399.919 62.612 L0 62.612 L0 0 Z" gXpos="558.134488188976" gYpos="59.363636363636" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Step 1 - Set up the sensor:"/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We create a 1-qubit sensor that produces Qat and DoQ states. The eastern hemisphere of the Bloch sphere corresponds to the “Qat” region, and the western hemisphere to “DoQ”."/>
+                <para ALIGN="0"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="0: ──RX(sensor_theta_x)──RY(sensor_theta_y)──..."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="1155.33765211167" YPOS="682.239713672156" OwnPage="0" ItemID="365926320" PTYPE="2" WIDTH="75.2078024337866" HEIGHT="63.9421045096624" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.145653996605153" LOCALSCY="0.145653996605153" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Bloch_sphere.png" IRENDER="0" EMBEDDED="0" path="M0 0 L75.2078 0 L75.2078 63.9421 L0 63.9421 L0 0 Z" copath="M0 0 L75.2078 0 L75.2078 63.9421 L0 63.9421 L0 0 Z" gXpos="542.874645669291" gYpos="1020.13480314961" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="744.481188260558" YPOS="752.993070866142" OwnPage="0" ItemID="365920656" PTYPE="4" WIDTH="400.791539012169" HEIGHT="62.2329420186109" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L400.792 0 L400.792 62.2329 L0 62.2329 L0 0 Z" copath="M0 0 L400.792 0 L400.792 62.2329 L0 62.2329 L0 0 Z" gXpos="781.153185397279" gYpos="-11.636363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Step 2 - Classifier:"/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We feed the sensor's output into a 1-qubit classifier circuit that consists of 3 parameterized gates, RX, RY, and RZ, and then apply a PauliZ measurement"/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="...──RX(classifier_theta_x)──RY(classifier_theta_y)──RZ(classifier_theta_z)──┤ ⟨Z"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="146.047874015748" YPOS="1412.34545454545" OwnPage="1" ItemID="365912160" PTYPE="4" WIDTH="498.878138869005" HEIGHT="227.945454545455" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L498.878 0 L498.878 227.945 L0 227.945 L0 0 Z" copath="M0 0 L498.878 0 L498.878 227.945 L0 227.945 L0 0 Z" gXpos="528.134488188976" gYpos="-404.126499642091" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="5- Improving accuracy:"/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="5.1 - Data re-uploading:"/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We tried two schemes to improve the accuracy."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="The first one, is applying data re-uploading on the same 1-qubit classifier, and here is an example circuit with 2 layers:"/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="0: ──RX(0.307)──RY(1.35)──RX(1.04)──RY(-2.64)──RZ(0.442)──RX(0.307)──RY(1.35)──RX(0.429)──RY(-2.66)──RZ(2.14)──┤ ⟨Z⟩"/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Notice the"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH=" ──RX(0.307)──RY(1.35)"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=" is repeated twice, followed by the RX, RY, RZ gates of the classifier."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Yet, the results didn't reach 80.4%. This is where we increased the number of layers, and we find that the accuracy improves indeed. In this table, we represent the improvement of accuracy with the increased number of circuit layers using the “Data re-upload” method and a 1 shot output of a quantum state."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="206.6" YPOS="1649.96363636364" OwnPage="1" ItemID="365914992" PTYPE="2" WIDTH="342.109090909091" HEIGHT="44.5090909090909" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.374298786552616" LOCALSCY="0.374298786552616" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Table.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L342.109 0 L342.109 44.5091 L0 44.5091 L0 0 Z" copath="M0 0 L342.109 0 L342.109 44.5091 L0 44.5091 L0 0 Z" gXpos="206.6" gYpos="1649.96363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="778.104781675018" YPOS="954.244194702935" OwnPage="2" ItemID="365943312" PTYPE="4" WIDTH="426.552727272727" HEIGHT="22.9090909090909" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L426.553 0 L426.553 22.9091 L0 22.9091 L0 0 Z" copath="M0 0 L426.553 0 L426.553 22.9091 L0 22.9091 L0 0 Z" gXpos="-126.197766642806" gYpos="190.236363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="20" FEATURES="inherit shadowed" FCOLOR="Blue" FSHADE="100" CH="Telling quantum DoQs and quantum Qats apart"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="745.218854688618" YPOS="1066.32302075877" OwnPage="2" ItemID="365960304" PTYPE="4" WIDTH="494.926599856836" HEIGHT="306.07697924123" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L494.927 0 L494.927 306.077 L0 306.077 L0 0 Z" copath="M0 0 L494.927 0 L494.927 306.077 L0 306.077 L0 0 Z" gXpos="-148.865511811024" gYpos="-241.636363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="5.2- Multi-qubit classifier results:"/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=" "/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="The second idea we investigated is feeding the sensor's output into a classifier with more than 1 qubit. Here is an example circuit:"/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="0: ──RX(0.307)──RY(1.35)───RX(0.584)──RY(-3.08)──RZ(-0.152)──╭C──╭┤ ⟨Z ⊗ Z⟩"/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="1: ──RX(1.31)───RY(-2.87)──RZ(2.38)──────────────────────────╰X──╰┤ ⟨Z ⊗ Z⟩"/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="The sensor consists of the RX and RY gates on the top wire."/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Notice the CNOT gate applied in the &quot;ring&quot; pattern to harness the entanglement."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We apply a PauliZ x PauliZ measurement, which returns either 1 and -1. In this case, as we have more than 1 qubit, we can have multiple classifier layers. RX, RY, RZ, and the CNOT ring make up one layer. (In the picture above, we show only 1 classifier layer)."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Adding multi-qubit classifiers resulted also in improving the accuracy, yet with a slower rate of improvement compared to the Data re-uploading method."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="In this table, we represent the improvement of accuracy with the increased number of circuit layers using the “multi-qubit classifier” method:"/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="763.654545454546" YPOS="1385.36363636364" OwnPage="2" ItemID="270278688" PTYPE="2" WIDTH="446.023249821045" HEIGHT="80.5821904080176" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.496685133431008" LOCALSCY="0.496685133431008" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Table 2.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L446.023 0 L446.023 80.5822 L0 80.5822 L0 0 Z" copath="M0 0 L446.023 0 L446.023 80.5822 L0 80.5822 L0 0 Z" gXpos="763.654545454546" gYpos="1385.36363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="745.354960629921" YPOS="1484.92727272727" OwnPage="2" ItemID="365974464" PTYPE="4" WIDTH="495.663221188261" HEIGHT="153.971309949893" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L495.663 0 L495.663 153.971 L0 153.971 L0 0 Z" copath="M0 0 L495.663 0 L495.663 153.971 L0 153.971 L0 0 Z" gXpos="-271.865511811024" gYpos="-310.636363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FEATURES="inherit outline" FCOLOR="Blue" FSHADE="100" CH="Perspective"/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="To advance further on this project and seek pertinent methods to improve the testing accuracy, we mainly consider adding more layers as well as qubits, trying different measurement mechanisms, parameterized data re-uploading"/>
+                <ITEXT FONTSIZE="9" FCOLOR="Blue" FSHADE="100" CH=" and different cost functions."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="All the results mentioned in our project presentation is derived from Pennylane simulator “default.qubit”. In the future, we will run our trained circuits on the different simulators and quantum hardware available on AWS. We will investigate how the accuracy varies from 1 to 30 shots, and compare the fidelity of the available backends regarding our project."/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="360" YPOS="996.763636363637" OwnPage="1" ItemID="280791872" PTYPE="4" WIDTH="148.381188260559" HEIGHT="17.8545454545455" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L148.381 0 L148.381 17.8545 L0 17.8545 L0 0 Z" copath="M0 0 L148.381 0 L148.381 17.8545 L0 17.8545 L0 0 Z" gXpos="941.330136005726" gYpos="107.6" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="16" FCOLOR="Blue" FSHADE="100" CH="Team Quant'ronauts"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="286.8" YPOS="990.836363636364" OwnPage="1" ItemID="411626976" PTYPE="2" WIDTH="61.5319112383679" HEIGHT="27.3679026485326" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0492255289906943" LOCALSCY="0.0492255289906943" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="qhack-banner.png" IRENDER="0" EMBEDDED="0" path="M0 0 L61.5319 0 L61.5319 27.3679 L0 27.3679 L0 0 Z" copath="M0 0 L61.5319 0 L61.5319 27.3679 L0 27.3679 L0 0 Z" gXpos="868.130136005726" gYpos="101.672727272727" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="925.945454545454" YPOS="999.145454545455" OwnPage="2" ItemID="411629808" PTYPE="4" WIDTH="148.381188260559" HEIGHT="17.8545454545455" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L148.381 0 L148.381 17.8545 L0 17.8545 L0 0 Z" copath="M0 0 L148.381 0 L148.381 17.8545 L0 17.8545 L0 0 Z" gXpos="838.330136005726" gYpos="112.6" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="16" FCOLOR="Blue" FSHADE="100" CH="Team Quant'ronauts"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="852.745454545455" YPOS="992.218181818182" OwnPage="2" ItemID="411632640" PTYPE="2" WIDTH="61.5319112383679" HEIGHT="27.3679026485326" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0492255289906943" LOCALSCY="0.0492255289906943" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="qhack-banner.png" IRENDER="0" EMBEDDED="0" path="M0 0 L61.5319 0 L61.5319 27.3679 L0 27.3679 L0 0 Z" copath="M0 0 L61.5319 0 L61.5319 27.3679 L0 27.3679 L0 0 Z" gXpos="765.130136005726" gYpos="105.672727272727" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="746.654545454546" YPOS="1646.56363636364" OwnPage="2" ItemID="411612816" PTYPE="4" WIDTH="237.755533285612" HEIGHT="15.9818181818184" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L237.756 0 L237.756 15.9818 L0 15.9818 L0 0 Z" copath="M0 0 L237.756 0 L237.756 15.9818 L0 15.9818 L0 0 Z" gXpos="-1145.86551181102" gYpos="-127.636363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FEATURES="inherit outline" FCOLOR="Blue" FSHADE="100" CH="Source code:"/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="https://github.com/mickahell/qhack21"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="772.309090909091" YPOS="595.418181818182" OwnPage="0" ItemID="411618480" PTYPE="2" WIDTH="303.709090909091" HEIGHT="49.7454545454545" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.29486319505737" LOCALSCY="0.29486319505737" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Re-upload.png" PRFILE="Embedded Display" IRENDER="0" EPROF="Embedded Display" path="M0 0 L303.709 0 L303.709 49.7455 L0 49.7455 L0 0 Z" copath="M0 0 L303.709 0 L303.709 49.7455 L0 49.7455 L0 0 Z" gXpos="772.309090909091" gYpos="595.418181818182" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="145.453915533286" YPOS="1193.14545454545" OwnPage="1" ItemID="411635472" PTYPE="4" WIDTH="503.39937007874" HEIGHT="213.309090909091" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L503.399 0 L503.399 213.309 L0 213.309 L0 0 Z" copath="M0 0 L503.4 0 L503.4 213.309 L0 213.309 L0 0 Z" gXpos="240.200119599724" gYpos="904.10754599373" gWidth="507.43561411538" gHeight="245.83790855172" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We experiment with the data output after one or more shots. If we run our sensor once, meaning with one shot, the output is fed into a classifier, and the PauliZ measurement result is either 1 or -1. In this extreme case, it is not possible to reproduce the sensor output and feed it to the classifier multiple times - we cannot clone the output sensor, which is a quantum state."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Increasing the number of shots, we clearly witness an improvement in the testing accuracy"/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="of the classification task:"/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=":"/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="1-shot accuracy: 80.4%"/>
+                <ITEXT CH=", "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="30-shot accuracy: 94.8%"/>
+                <ITEXT CH=", "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="1000-shot accuracy: 98.1%"/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="However, following this process, with a 1-qubit classifier that applies a unitary operation with parameters independent of the sensor's output, the accuracy improvement hits a limit. We assume this limitation is due to applying a single rotation gate, which doesn't actually distribute the state vectors closer to the East and West poles of the Bloch sphere."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="So, we try to continue improving the accuracy with different approaches."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+    </DOCUMENT>
+</SCRIBUSUTF8NEW>
