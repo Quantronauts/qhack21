@@ -13,12 +13,15 @@ def circuit(weights, wires):
         raise Exception("Last layer is incomplete, not all qubits are rotated")
 
     for i in range(n_layers):
-        w_i = weights[i * n_qubits : (i+1) * n_qubits, :]
-
-        qml.broadcast(qml.Rot, wires, pattern="single", parameters=w_i) # single-qubit rotations
+        for j in range(n_qubits):
+            # single-qubit rotations
+            qml.RX(weights[i*n_qubits+j,0], wires=j)
+            qml.RY(weights[i*n_qubits+j,1], wires=j)
+            qml.RZ(weights[i*n_qubits+j,2], wires=j)
 
         if n_qubits > 1:
-            qml.broadcast(qml.CNOT, wires, pattern="ring") # engtangling gates
+            # engtangling gates
+            qml.broadcast(qml.CNOT, wires, pattern="ring")
 
 
 def get_initial_weights(wires, n_layers):
@@ -36,6 +39,7 @@ if __name__ == "__main__":
 
     n_layers = 2
     weights = get_initial_weights(dev.wires, n_layers)
+    print(weights)
     
     drawer = qml.draw(my_circuit)
     print(drawer(weights, wires=dev.wires))

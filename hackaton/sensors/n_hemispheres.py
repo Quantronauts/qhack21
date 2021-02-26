@@ -12,8 +12,8 @@ def circuit(x, wires):
         raise Exception("Not all qubits are rotated")
 
     for i in range(n_qubits):
-        qml.RY(x[i,0], wires=i)
-        qml.RZ(x[i,1], wires=i)
+        qml.RX(x[i,0], wires=i)
+        qml.RY(x[i,1], wires=i)
 
 
 def get_labelled_dataset(wires, how_many):
@@ -25,16 +25,16 @@ def get_labelled_dataset(wires, how_many):
     for i in range(how_many):
         x = X[i]
 
-        n_north = 0
-        n_south = 0
+        n_east = 0
+        n_west = 0
         for j in range(n_qubits):
-            if np.abs(x[j,0]) < np.pi / 2:
-                n_north += 1
+            if x[j,0] <= 0.0:
+                n_east += 1
             else:
-                n_south += 1
+                n_west += 1
 
         # majority voting
-        if n_south > n_north:
+        if n_west > n_east:
             Y[i] = -1
 
     return X, Y
@@ -55,5 +55,5 @@ if __name__ == "__main__":
     drawer = qml.draw(my_circuit)
     print(drawer(X[0], dev.wires))
 
-    x = np.array([[np.pi/2, np.pi/2], [0, 0], [0, 0]], dtype=np.float64)
+    x = np.array([[-np.pi/2, 0.0], [0, 0], [0, 0]], dtype=np.float64)
     print(my_circuit(x, dev.wires))

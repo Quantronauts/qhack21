@@ -8,11 +8,11 @@ from os import path
 
 sys.path.append(path.abspath('../combine'))
 
-import hemi_rot_cnot as hrcn
+import hemi_0_rot_cnot as hrcn
 
 
-n_qubits = 1
-n_shots = 30
+n_qubits = 1 ### Number of qubits in classifier, change it as you wish. Sensor will ALWAYS use only 1st qubit
+n_shots = 30 ### This is for TRAINING (to calculate expected values), for testing see shots below
 
 dev_expval = qml.device("default.qubit", wires=range(n_qubits), analytic=False, shots=n_shots)
 print(dev_expval)
@@ -58,10 +58,10 @@ def train(weights, wires, X, Y, steps, batch_size, k):
 
 
 if __name__ == "__main__":
-    np.random.seed(0)
+    np.random.seed(0) ### This ensures results are reproducible
 
-    n_layers = 1
-    how_many = 500
+    n_layers = 1 ### number of layers, more than 1 makes sense when n_qubits > 1, or we use data re-upload
+    how_many = 500 ### size of training set, random points on Bloch sphere
     X, Y, weights = hrcn.get_data_and_weights(dev_expval.wires, n_layers, how_many)
     #print(X)
     #print(Y)
@@ -70,21 +70,21 @@ if __name__ == "__main__":
     drawer = qml.draw(combined_expval_train)
     print(drawer(weights, X[0], wires=dev_expval.wires))
 
-    k = 1
+    k = 1 ### power in cost function, 1 is the best, surprisingly
     steps = 50
     batch_size = 10
     opt_weights = train(weights, dev_expval.wires, X, Y, steps, batch_size, k)
     #print(opt_weights)
     
-    drawer = qml.draw(combined_expval_train)
+    drawer = qml.draw(combined_expval_train) ### Sensor has RX and RY gates, then each classifier layer has RX, RY, and RZ, plus CNOTS (if n_qubits > 1)
     print(drawer(opt_weights, X[0], wires=dev_expval.wires))
 
     #
     # Accuracy on unseen test set
     #
-    X_test, Y_test, not_used = hrcn.get_data_and_weights(dev_expval.wires, n_layers, 1000)
+    X_test, Y_test, not_used = hrcn.get_data_and_weights(dev_expval.wires, n_layers, 1000) ### test set has 1000 items
     
-    acc_n_shots = 1
+    acc_n_shots = 1 ### 1-shot results, change to 30, or 1000, to get results when multiple shots are possible during operation
     dev_acc_expval = qml.device("default.qubit", wires=range(n_qubits), analytic=False, shots=acc_n_shots)
     
     @qml.qnode(dev_acc_expval)
