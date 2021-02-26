@@ -210,7 +210,11 @@
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We experiment with the data output after one or more shots. If we run our sensor once, meaning with one shot, the output is fed into a classifier, and the PauliZ measurement result is either 1 or -1. In this extreme case, it is not possible to reproduce the sensor output and feed it to the classifier multiple times - we cannot clone the output sensor, which is a quantum state."/>
                 <para/>
                 <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Increasing the number of shots, we clearly witness an improvement in the accuracy of the classification task:"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Increasing the number of shots, we clearly witness an improvement in the testing accuracy"/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="of the classification task:"/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=":"/>
                 <ITEXT CH=" "/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="1-shot accuracy: 80.4%"/>
                 <ITEXT CH=", "/>
