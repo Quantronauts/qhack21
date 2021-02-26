@@ -184,20 +184,19 @@
                 <trail/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="513.008460987831" YPOS="1077.43218324982" OwnPage="1" ItemID="270267360" PTYPE="2" WIDTH="134.4" HEIGHT="75.8286041517542" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.300907159332358" LOCALSCY="0.300907159332358" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="graph-testing_500data_1shot_1qubit.png" IRENDER="0" EMBEDDED="0" path="M0 0 L134.4 0 L134.4 75.8286 L0 75.8286 L0 0 Z" copath="M0 0 L134.4 0 L134.4 75.8286 L0 75.8286 L0 0 Z" gXpos="513.008460987831" gYpos="1077.43218324982" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
-        <PAGEOBJECT XPOS="148.189606299213" YPOS="1045.29090909091" OwnPage="1" ItemID="270281520" PTYPE="4" WIDTH="350.818854688618" HEIGHT="138.52309234073" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L350.819 0 L350.819 138.523 L0 138.523 L0 0 Z" copath="M0 0 L350.819 0 L350.819 138.523 L0 138.523 L0 0 Z" gXpos="617.268346456693" gYpos="-211.636363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="503.008460987831" YPOS="1136.43218324982" OwnPage="1" ItemID="270267360" PTYPE="2" WIDTH="134.4" HEIGHT="48.2223622047245" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.191358580177478" LOCALSCY="0.191358580177478" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="graph-testing_500data_1shot_1qubit.png" IRENDER="0" EMBEDDED="0" path="M0 0 L134.4 0 L134.4 48.2224 L0 48.2224 L0 0 Z" copath="M0 0 L134.4 0 L134.4 48.2224 L0 48.2224 L0 0 Z" gXpos="503.008460987831" gYpos="1136.43218324982" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="145.189606299213" YPOS="1034.29090909091" OwnPage="1" ItemID="270281520" PTYPE="4" WIDTH="506.885838008079" HEIGHT="93.8363636363636" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L506.886 0 L506.886 93.8364 L0 93.8364 L0 0 Z" copath="M0 0 L506.886 0 L506.886 93.8364 L0 93.8364 L0 0 Z" gXpos="145.189606299213" gYpos="1034.29090909091" gWidth="506.885838008079" gHeight="107.966558441558" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Step 3 - Training:"/>
                 <para/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="The θ parameters of the classifier are initialized randomly, then we use the Gradient Descent optimizer to optimize the sensor’s output over 50 steps. During training, the aim is for the sensor outputs labelled &quot;Qat&quot;, the measurement result (expected value of 30 shots) should be close to 1, while for sensor outputs labelled &quot;DoQ&quot;, the measurement would be close to -1."/>
                 <para/>
-                <para/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="For the training, we used a random training set of 500 labelled sensor outputs."/>
                 <trail/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="148.2" YPOS="1190.49700787402" OwnPage="1" ItemID="280766384" PTYPE="4" WIDTH="501.663006442376" HEIGHT="258.826084466714" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L501.663 0 L501.663 258.826 L0 258.826 L0 0 Z" copath="M0 0 L501.663 0 L501.663 258.826 L0 258.826 L0 0 Z" gXpos="584.134488188976" gYpos="-313.636363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="145.200119599724" YPOS="1137.10754599373" OwnPage="1" ItemID="280766384" PTYPE="4" WIDTH="352.962886842653" HEIGHT="46.8560903699015" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L352.963 0 L352.963 46.8561 L0 46.8561 L0 0 Z" copath="M0 0 L352.963 0 L352.963 46.8561 L0 46.8561 L0 0 Z" gXpos="145.200119599724" gYpos="1137.10754599373" gWidth="507.43561411538" gHeight="245.83790855172" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="4- Results"/>
@@ -205,28 +204,6 @@
                 <para/>
                 <para/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="For testing, we used a random test set of unseen 1000 labelled sensor outputs."/>
-                <para/>
-                <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We experiment with the data output after one or more shots. If we run our sensor once, meaning with one shot, the output is fed into a classifier, and the PauliZ measurement result is either 1 or -1. In this extreme case, it is not possible to reproduce the sensor output and feed it to the classifier multiple times - we cannot clone the output sensor, which is a quantum state."/>
-                <para/>
-                <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Increasing the number of shots, we clearly witness an improvement in the testing accuracy"/>
-                <ITEXT CH=" "/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="of the classification task:"/>
-                <ITEXT CH=" "/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=":"/>
-                <ITEXT CH=" "/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="1-shot accuracy: 80.4%"/>
-                <ITEXT CH=", "/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="30-shot accuracy: 94.8%"/>
-                <ITEXT CH=", "/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="1000-shot accuracy: 98.1%"/>
-                <para/>
-                <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="However, following this process, with a 1-qubit classifier that applies a unitary operation with parameters independent of the sensor's output, the accuracy improvement hits a limit. We assume this limitation is due to applying a single rotation gate, which doesn't actually distribute the state vectors closer to the East and West poles of the Bloch sphere."/>
-                <para/>
-                <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="So, we try to continue improving the accuracy with different approaches."/>
                 <trail/>
             </StoryText>
         </PAGEOBJECT>
@@ -237,7 +214,7 @@
                 <para/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We create a 1-qubit sensor that produces Qat and DoQ states. The eastern hemisphere of the Bloch sphere corresponds to the “Qat” region, and the western hemisphere to “DoQ”."/>
                 <para ALIGN="0"/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="0: ──RX(sensor_theta_x)──RY(sensor_theta_y)──..."/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="0: ──RX(sensor_theta_x)──RY(sensor_theta_y)──..."/>
                 <trail/>
             </StoryText>
         </PAGEOBJECT>
@@ -249,11 +226,11 @@
                 <para/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We feed the sensor's output into a 1-qubit classifier circuit that consists of 3 parameterized gates, RX, RY, and RZ, and then apply a PauliZ measurement"/>
                 <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="...──RX(classifier_theta_x)──RY(classifier_theta_y)──RZ(classifier_theta_z)──┤ ⟨Z"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="...──RX(classifier_theta_x)──RY(classifier_theta_y)──RZ(classifier_theta_z)──┤ ⟨Z"/>
                 <trail/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="149.047874015748" YPOS="1457.83559055118" OwnPage="1" ItemID="365912160" PTYPE="4" WIDTH="501.663006442376" HEIGHT="182.414774516821" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L501.663 0 L501.663 182.415 L0 182.415 L0 0 Z" copath="M0 0 L501.663 0 L501.663 182.415 L0 182.415 L0 0 Z" gXpos="531.134488188976" gYpos="-358.636363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="146.047874015748" YPOS="1412.34545454545" OwnPage="1" ItemID="365912160" PTYPE="4" WIDTH="498.878138869005" HEIGHT="227.945454545455" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L498.878 0 L498.878 227.945 L0 227.945 L0 0 Z" copath="M0 0 L498.878 0 L498.878 227.945 L0 227.945 L0 0 Z" gXpos="528.134488188976" gYpos="-404.126499642091" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="5- Improving accuracy:"/>
@@ -267,16 +244,18 @@
                 <para/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="The first one, is applying data re-uploading on the same 1-qubit classifier, and here is an example circuit with 2 layers:"/>
                 <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="0: ──RX(0.307)──RY(1.35)──RX(1.04)──RY(-2.64)──RZ(0.442)──RX(0.307)──RY(1.35)──RX(0.429)──RY(-2.66)──RZ(2.14)──┤ ⟨Z⟩"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="0: ──RX(0.307)──RY(1.35)──RX(1.04)──RY(-2.64)──RZ(0.442)──RX(0.307)──RY(1.35)──RX(0.429)──RY(-2.66)──RZ(2.14)──┤ ⟨Z⟩"/>
                 <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Notice the ──RX(0.307)──RY(1.35) is repeated twice, followed by the RX, RY, RZ gates of the classifier."/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Notice the"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH=" ──RX(0.307)──RY(1.35)"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=" is repeated twice, followed by the RX, RY, RZ gates of the classifier."/>
                 <para/>
                 <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Yet, the results didn't reach 80.4%. This is where we increased the number of layers, and we find that the accuracy improves indeed. In this table, we represent the improvement of accuracy with the increased number of circuit layers using the “Data re-upload” method and a 1 shot output of a quantum state"/>
-                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Yet, the results didn't reach 80.4%. This is where we increased the number of layers, and we find that the accuracy improves indeed. In this table, we represent the improvement of accuracy with the increased number of circuit layers using the “Data re-upload” method and a 1 shot output of a quantum state."/>
+                <trail/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="201.6" YPOS="1645.96363636364" OwnPage="1" ItemID="365914992" PTYPE="2" WIDTH="342.109090909091" HEIGHT="44.5090909090909" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.374298786552616" LOCALSCY="0.374298786552616" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Table.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L342.109 0 L342.109 44.5091 L0 44.5091 L0 0 Z" copath="M0 0 L342.109 0 L342.109 44.5091 L0 44.5091 L0 0 Z" gXpos="201.6" gYpos="1645.96363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="206.6" YPOS="1649.96363636364" OwnPage="1" ItemID="365914992" PTYPE="2" WIDTH="342.109090909091" HEIGHT="44.5090909090909" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.374298786552616" LOCALSCY="0.374298786552616" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Table.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L342.109 0 L342.109 44.5091 L0 44.5091 L0 0 Z" copath="M0 0 L342.109 0 L342.109 44.5091 L0 44.5091 L0 0 Z" gXpos="206.6" gYpos="1649.96363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
         <PAGEOBJECT XPOS="778.104781675018" YPOS="954.244194702935" OwnPage="2" ItemID="365943312" PTYPE="4" WIDTH="426.552727272727" HEIGHT="22.9090909090909" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L426.553 0 L426.553 22.9091 L0 22.9091 L0 0 Z" copath="M0 0 L426.553 0 L426.553 22.9091 L0 22.9091 L0 0 Z" gXpos="-126.197766642806" gYpos="190.236363636364" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
@@ -294,9 +273,9 @@
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="The second idea we investigated is feeding the sensor's output into a classifier with more than 1 qubit. Here is an example circuit:"/>
                 <para/>
                 <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="0: ──RX(0.307)──RY(1.35)───RX(0.584)──RY(-3.08)──RZ(-0.152)──╭C──╭┤ ⟨Z ⊗ Z⟩"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="0: ──RX(0.307)──RY(1.35)───RX(0.584)──RY(-3.08)──RZ(-0.152)──╭C──╭┤ ⟨Z ⊗ Z⟩"/>
                 <para/>
-                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="1: ──RX(1.31)───RY(-2.87)──RZ(2.38)──────────────────────────╰X──╰┤ ⟨Z ⊗ Z⟩"/>
+                <ITEXT FONTSIZE="10" FCOLOR="Black" FSHADE="100" CH="1: ──RX(1.31)───RY(-2.87)──RZ(2.38)──────────────────────────╰X──╰┤ ⟨Z ⊗ Z⟩"/>
                 <para/>
                 <para/>
                 <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="The sensor consists of the RX and RY gates on the top wire."/>
@@ -355,5 +334,31 @@
             </StoryText>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="772.309090909091" YPOS="595.418181818182" OwnPage="0" ItemID="411618480" PTYPE="2" WIDTH="303.709090909091" HEIGHT="49.7454545454545" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.29486319505737" LOCALSCY="0.29486319505737" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Re-upload.png" PRFILE="Embedded Display" IRENDER="0" EPROF="Embedded Display" path="M0 0 L303.709 0 L303.709 49.7455 L0 49.7455 L0 0 Z" copath="M0 0 L303.709 0 L303.709 49.7455 L0 49.7455 L0 0 Z" gXpos="772.309090909091" gYpos="595.418181818182" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="145.453915533286" YPOS="1193.14545454545" OwnPage="1" ItemID="411635472" PTYPE="4" WIDTH="503.39937007874" HEIGHT="213.309090909091" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L503.399 0 L503.399 213.309 L0 213.309 L0 0 Z" copath="M0 0 L503.4 0 L503.4 213.309 L0 213.309 L0 0 Z" gXpos="240.200119599724" gYpos="904.10754599373" gWidth="507.43561411538" gHeight="245.83790855172" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="We experiment with the data output after one or more shots. If we run our sensor once, meaning with one shot, the output is fed into a classifier, and the PauliZ measurement result is either 1 or -1. In this extreme case, it is not possible to reproduce the sensor output and feed it to the classifier multiple times - we cannot clone the output sensor, which is a quantum state."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="Increasing the number of shots, we clearly witness an improvement in the testing accuracy"/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="of the classification task:"/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH=":"/>
+                <ITEXT CH=" "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="1-shot accuracy: 80.4%"/>
+                <ITEXT CH=", "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="30-shot accuracy: 94.8%"/>
+                <ITEXT CH=", "/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="1000-shot accuracy: 98.1%"/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="However, following this process, with a 1-qubit classifier that applies a unitary operation with parameters independent of the sensor's output, the accuracy improvement hits a limit. We assume this limitation is due to applying a single rotation gate, which doesn't actually distribute the state vectors closer to the East and West poles of the Bloch sphere."/>
+                <para/>
+                <para/>
+                <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="So, we try to continue improving the accuracy with different approaches."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
     </DOCUMENT>
 </SCRIBUSUTF8NEW>
