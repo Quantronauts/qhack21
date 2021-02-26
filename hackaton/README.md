@@ -15,8 +15,8 @@
 
 ## Idea <a name="idea"></a>
 The classify regions of the Hilbert space. E.g. :
-- The Northern hemisphere of the Bloch sphere is _cat_
-- The Southern hemisphere is _dog_
+- An hemisphere of the Bloch sphere is _cat_
+- The other hemisphere is _dog_
 
 ### First create quantum state with variational parameters
 - As first step, we create a parameterized sensor that can create state vectors that fall either into the _cat_ or _dog_ region. (As black box)
