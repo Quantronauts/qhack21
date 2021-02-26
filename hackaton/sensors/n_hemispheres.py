@@ -4,36 +4,56 @@ import pennylane as qml
 from pennylane import numpy as np
 
 
-def circuit(params, wires):
+def circuit(x, wires):
     n_qubits = len(wires)
-    n_rotations = len(params)
+    n_rotations = len(x)
 
     if n_rotations != n_qubits:
         raise Exception("Not all qubits are rotated")
 
     for i in range(n_qubits):
-        qml.RY(params[i,0], wires=i)
-        qml.RZ(params[i,1], wires=i)
+        qml.RY(x[i,0], wires=i)
+        qml.RZ(x[i,1], wires=i)
 
 
-def init_params(wires):
+def get_labelled_dataset(wires, how_many):
     n_qubits = len(wires)
-    return np.random.uniform(low=-np.pi, high=np.pi, size=(n_qubits, 2))
+
+    X = np.random.uniform(low=-np.pi, high=np.pi, size=(how_many, n_qubits, 2)) # data vectors
+    Y = np.ones(how_many) # labels, 1 means Qat, -1 means DoQ
+
+    for i in range(how_many):
+        x = X[i]
+
+        n_north = 0
+        n_south = 0
+        for j in range(n_qubits):
+            if np.abs(x[j,0]) < np.pi / 2:
+                n_north += 1
+            else:
+                n_south += 1
+
+        # majority voting
+        if n_south > n_north:
+            Y[i] = -1
+
+    return X, Y
 
 
 if __name__ == "__main__":
-    wires = range(2)
-    dev = qml.device("default.qubit", wires=wires)
+    dev = qml.device("default.qubit", wires=range(3))
 
     @qml.qnode(dev)
-    def my_circuit(params, wires):
-        circuit(params, wires)
+    def my_circuit(x, wires):
+        circuit(x, wires)
         return qml.expval(qml.PauliY(0))    
 
-    params = init_params(dev.wires)
+    X, Y = get_labelled_dataset(dev.wires, 5)
+    print(X)
+    print(Y)
     
     drawer = qml.draw(my_circuit)
-    print(drawer(params=params, wires=wires))
+    print(drawer(X[0], dev.wires))
 
-    #params = np.array([[np.pi/2, np.pi/2], [0, 0]], dtype=np.float64)
-    #print(my_circuit(params, wires))
+    x = np.array([[np.pi/2, np.pi/2], [0, 0], [0, 0]], dtype=np.float64)
+    print(my_circuit(x, dev.wires))
