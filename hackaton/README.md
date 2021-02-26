@@ -2,7 +2,7 @@
 - Classifier of quantum cats and quantum dogs
 
 ## Structure <a name="structure"></a>
-- Final script : `final_script.py`
+- Final script : `qats_doqs.ipynb`
 - Folders :
 	- datas : folder for the Qats and DoQs csv files
 	- sensors : folder for the differents sensors (quantum generation)
