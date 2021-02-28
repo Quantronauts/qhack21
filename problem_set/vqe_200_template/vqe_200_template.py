@@ -70,13 +70,6 @@ def run_vqe(H):
     max_iterations = 500
     conv_tol = 1e-06
 
-    #@qml.qnode(dev)
-    #def abc(params, wires):
-    #    variational_ansatz(params, wires)
-    #    return qml.state()
-    #b = abc(params, range(num_qubits))
-    #print(b)
-
     for n in range(max_iterations):
         params, prev_energy = opt.step_and_cost(cost_fn, params)
         energy = cost_fn(params)
