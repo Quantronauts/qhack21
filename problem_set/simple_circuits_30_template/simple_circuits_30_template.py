@@ -18,7 +18,7 @@ def simple_circuits_30(angle):
     Returns:
         float: the expectation value of a PauliX measurement
     """
-    x_expectation = 0.0
+    #x_expectation = 0.0
 
     # QHACK #
 
