@@ -3,7 +3,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/mickahell/qhack21.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mickahell/qhack21/context:python)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/mickahell/qhack21.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mickahell/qhack21/alerts/)
 
 Team repository for [QHACK21](https://qhack.ai)
 
