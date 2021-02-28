@@ -110,7 +110,7 @@ for i in range(1000):
     # Optimize th weights is the output is bad
     if (prob == -1 and label_training != "doq") or (prob == 1 and label_training != "qat"):
         steps = 100
-        for i in range(steps):
+        for u in range(steps):
             weights = opt.step(cost, weights)
             result = entire_circuit(data_training, weights)
             prob = count_prob(result)
@@ -118,7 +118,7 @@ for i in range(1000):
             optimizer_run += 1
 
             # if (i + 1) % 10 == 0:
-            # print("Cost after step {:5d}: {: .7f} -> {}".format(i + 1, prob, label_training))
+            # print("Cost after step {:5d}: {: .7f} -> {}".format(u + 1, prob, label_training))
 
             if (prob == -1 and label_training == "doq") or (prob == 1 and label_training == "qat"):
                 break
