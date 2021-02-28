@@ -21,7 +21,7 @@ Also check: https://pennylane.readthedocs.io/en/stable/code/api/pennylane.templa
 #################################################################################################
 
 import pennylane as qml
-from pennylane import numpy as np
+#from pennylane import numpy as np
 from pennylane.templates.state_preparations import ArbitraryStatePreparation
 
 
