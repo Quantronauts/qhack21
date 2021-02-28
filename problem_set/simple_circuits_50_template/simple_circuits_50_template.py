@@ -20,7 +20,7 @@ def simple_circuits_50(angle):
         float: the expectation value of the tensor observable
     """
 
-    expectation_value = 0.0
+    #expectation_value = 0.0
 
     # QHACK #
 
