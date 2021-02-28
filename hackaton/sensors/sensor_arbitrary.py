@@ -35,6 +35,6 @@ def sensor(weights, wires):
     
     def device(weights):
         for i in range (wires):
-            qml.template.ArbitraryStatePreparation(weights, wires=i)
+            ArbitraryStatePreparation(weights, wires=i)
         return qml.probs(wires)
 
