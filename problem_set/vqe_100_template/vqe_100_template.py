@@ -79,7 +79,7 @@ def run_vqe(H):
     for n in range(max_iterations):
         params, prev_energy = opt.step_and_cost(cost_fn, params)
         energy = cost_fn(params)
-        conv = np.abs(energy - prev_energy)
+        #conv = np.abs(energy - prev_energy)
 
     print(cost_fn.draw())
 
