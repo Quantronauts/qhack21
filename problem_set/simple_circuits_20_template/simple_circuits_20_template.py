@@ -18,7 +18,7 @@ def simple_circuits_20(angle):
     Returns:
         float: the probability of of the state being in the 0 ground state
     """
-    prob = 0.0
+    #prob = 0.0
     # QHACK #
 
     # Step 1 : initalize a device
