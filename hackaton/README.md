@@ -9,14 +9,13 @@
 	- classifiers : folder for the differents classifiers
 	- combine : folder for the differents combining algorithms
 	- training : folder for the differents training algorithms
-	- testing : folder for the differents testing algorithms
 	- graphs : folder for the differents graphs generation
 	- communication : folder for images and ressources to present the project
 
 ## Idea <a name="idea"></a>
 The classify regions of the Hilbert space. E.g. :
-- An hemisphere of the Bloch sphere is _cat_
-- The other hemisphere is _dog_
+- An hemisphere of the Bloch sphere is _Qat_
+- The other hemisphere is _doQ_
 
 ### First create quantum state with variational parameters
 - As first step, we create a parameterized sensor that can create state vectors that fall either into the _cat_ or _dog_ region. (As black box)
