@@ -1,4 +1,5 @@
 # qhack21 - Quant'ronauts
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4569383.svg)](https://doi.org/10.5281/zenodo.4569383)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
