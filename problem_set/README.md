@@ -101,4 +101,3 @@ For example, if you've added a solution for the 100 point Circuit Training probl
 `python ./circuit_training_100_template.py < 1.in`
  * Check what was output to the console. If everything worked, you should see a single number or series of comma delimited numbers and nothing else
  * Open the file `1.ans` for this problem and compare its contents to what was written to the command line. They should match to within some tolerance specified in the `problem.pdf` to be judged correct.
- * 

@@ -29,7 +29,7 @@ def natural_gradient(params):
         np.ndarray: The natural gradient evaluated at the input parameters, of dimension 6
     """
 
-    natural_grad = np.zeros(6)
+    #natural_grad = np.zeros(6)
 
     # QHACK #
 

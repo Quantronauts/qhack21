@@ -19,13 +19,13 @@ def find_excited_states(H):
         sorted from smallest to largest.
     """
 
-    energies = np.zeros(3)
+    #energies = np.zeros(3)
 
     # QHACK #
     spectrum = np.zeros(4)
 
     def variational_ansatz0(params, wires):
-        angles = params[0]
+        #angles = params[0]
         params = params[1:]
 
         n_qubits = len(wires)

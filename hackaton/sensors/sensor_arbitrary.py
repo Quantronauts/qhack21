@@ -21,7 +21,7 @@ Also check: https://pennylane.readthedocs.io/en/stable/code/api/pennylane.templa
 #################################################################################################
 
 import pennylane as qml
-from pennylane import numpy as np
+#from pennylane import numpy as np
 from pennylane.templates.state_preparations import ArbitraryStatePreparation
 
 
@@ -35,6 +35,6 @@ def sensor(weights, wires):
     
     def device(weights):
         for i in range (wires):
-            qml.template.ArbitraryStatePreparation(weights, wires=i)
+            ArbitraryStatePreparation(weights, wires=i)
         return qml.probs(wires)
 
