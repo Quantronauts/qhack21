@@ -6,7 +6,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/mickahell/qhack21.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mickahell/qhack21/context:python)
 
-Team repository for [QHACK21](https://qhack.ai)
+Team repository for [QHACK21](https://qhack.ai) - **Quant'ronauts**
 
 <img src="qhack-banner.png">
 
